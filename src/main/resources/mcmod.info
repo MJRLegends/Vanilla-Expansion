@@ -1,0 +1,16 @@
+[
+{
+  "modid": "vanillaExpansion",
+  "name": "Vanilla Expansion",
+  "description": "A mod to expand the Vanilla experience",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MJRLegends"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

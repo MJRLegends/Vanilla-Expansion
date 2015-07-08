@@ -1,0 +1,57 @@
+tile.vanillaExpansion_goldBlockhalfslab.name=Block of Gold Slab
+tile.vanillaExpansion_ironBlockhalfslab.name=Block of Iron Slab
+tile.vanillaExpansion_diamondBlockhalfslab.name=Block of Diamond Slab
+tile.vanillaExpansion_coalBlockhalfslab.name=Block of Coal Slab
+tile.vanillaExpansion_redstoneBlockhalfslab.name=Block of Redstone Slab
+tile.vanillaExpansion_lapisBlockhalfslab.name=Block of Lapis Slab
+
+tile.vanillaExpansion_sandhalfslab.name=Sand Slab
+tile.vanillaExpansion_redSandhalfslab.name=Red Sand Slab
+tile.vanillaExpansion_dirtBlockhalfslab.name=Dirt Slab
+tile.vanillaExpansion_netherrackBlockhalfslab.name=Netherrack Slab
+
+tile.vanillaExpansion_whiteWoolBlockhalfslab.name=White Wool Slab
+tile.vanillaExpansion_orangeWoolBlockhalfslab.name=Orange Wool Slab
+tile.vanillaExpansion_magentaWoolBlockhalfslab.name=Magenta Wool Slab
+tile.vanillaExpansion_lightBlueWoolBlockhalfslab.name=Light Blue Wool Slab
+tile.vanillaExpansion_yellowWoolBlockhalfslab.name=Yellow Wool Slab
+tile.vanillaExpansion_limeWoolBlockhalfslab.name=Lime Wool Slab
+tile.vanillaExpansion_pinkWoolBlockhalfslab.name=Pink Wool Slab
+tile.vanillaExpansion_grayWoolBlockhalfslab.name=Gray Wool Slab
+tile.vanillaExpansion_lightGrayWoolBlockhalfslab.name=Light Gray Wool Slab
+tile.vanillaExpansion_cyanWoolBlockhalfslab.name=Cyan Wool Slab
+tile.vanillaExpansion_purpleWoolBlockhalfslab.name=Purple Wool Slab
+tile.vanillaExpansion_blueWoolBlockhalfslab.name=Blue Wool Slab
+tile.vanillaExpansion_brownWoolBlockhalfslab.name=Brown Wool Slab
+tile.vanillaExpansion_greenWoolBlockhalfslab.name=Green Wool Slab
+tile.vanillaExpansion_redWoolBlockhalfslab.name=Red Wool Slab
+tile.vanillaExpansion_blackWoolBlockhalfslab.name=Black Wool Slab
+
+tile.goldBlockStairs.name=Block of Gold Stairs
+tile.ironBlockStairs.name=Block of Iron Stairs
+tile.diamondBlockStairs.name=Block of Diamond Stairs
+tile.coalBlockStairs.name=Block of Coal Stairs
+tile.redstoneBlockStairs.name=Block of Redstone Stairs
+tile.lapisBlockStairs.name=Block of Lapis Stairs
+
+tile.sandStairs.name=Sand Stairs
+tile.redSandStairs.name=Red Sand Stairs
+tile.dirtStairs.name=Dirt Stairs
+tile.netherrackBlockStairs.name=Netherrack Stairs
+
+tile.whiteWoolBlockStairs.name=White Wool Stairs
+tile.orangeWoolBlockStairs.name=Orange Wool Stairs
+tile.magentaWoolBlockStairs.name=Magenta Wool Stairs
+tile.lightBlueWoolBlockStairs.name=Light Blue Wool Stairs
+tile.yellowWoolBlockStairs.name=Yellow Wool Stairs
+tile.limeWoolBlockStairs.name=Lime Wool Stairs
+tile.pinkWoolBlockStairs.name=Pink Wool Stairs
+tile.grayWoolBlockStairs.name=Gray Wool Stairs
+tile.lightGrayWoolBlockStairs.name=Light Gray Wool Stairs
+tile.cyanWoolBlockStairs.name=Cyan Wool Stairs
+tile.purpleWoolBlockStairs.name=Purple Wool Stairs
+tile.blueWoolBlockStairs.name=Blue Wool Stairs
+tile.brownWoolBlockStairs.name=Brown Wool Stairs
+tile.greenWoolBlockStairs.name=Green Wool Stairs
+tile.redWoolBlockStairs.name=Red Wool Stairs
+tile.blackWoolBlockStairs.name=Black Wool Stairs
