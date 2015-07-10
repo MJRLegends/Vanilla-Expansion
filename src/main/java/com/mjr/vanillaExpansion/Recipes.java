@@ -13,6 +13,7 @@ public class Recipes {
 		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.ironBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.iron_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.coalBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.coal_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.lapisBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.lapis_block, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.emeraldBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.emerald_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.netherrackBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.netherrack, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.redstoneBlockHalfSlab, 6),
 				new Object[] { "XXX", 'X', new ItemStack(Blocks.redstone_block, 1, 0) });
@@ -85,6 +86,8 @@ public class Recipes {
 				new ItemStack(Blocks.coal_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.lapisBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
 				new ItemStack(Blocks.lapis_block, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.emeraldBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
+				new ItemStack(Blocks.emerald_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.netherrackBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
 				new ItemStack(Blocks.netherrack, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(VanillaExpansion.redstoneBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
