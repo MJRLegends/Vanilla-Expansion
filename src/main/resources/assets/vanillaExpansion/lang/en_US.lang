@@ -4,11 +4,16 @@ tile.vanillaExpansion_diamondBlockhalfslab.name=Block of Diamond Slab
 tile.vanillaExpansion_coalBlockhalfslab.name=Block of Coal Slab
 tile.vanillaExpansion_redstoneBlockhalfslab.name=Block of Redstone Slab
 tile.vanillaExpansion_lapisBlockhalfslab.name=Block of Lapis Slab
+tile.vanillaExpansion_emeraldBlockhalfSlab.name=Block of Emerald Slab
 
 tile.vanillaExpansion_sandhalfslab.name=Sand Slab
 tile.vanillaExpansion_redSandhalfslab.name=Red Sand Slab
 tile.vanillaExpansion_dirtBlockhalfslab.name=Dirt Slab
 tile.vanillaExpansion_netherrackBlockhalfslab.name=Netherrack Slab
+
+tile.vanillaExpansion_glowstoneBlockhalfSlab.name=Glowstone Slab
+tile.vanillaExpansion_packedIceBlockhalfslab.name=Packed Ice Slab
+tile.vanillaExpansion_iceBlockhalfslab.name=Ice Slab
 
 tile.vanillaExpansion_whiteWoolBlockhalfslab.name=White Wool Slab
 tile.vanillaExpansion_orangeWoolBlockhalfslab.name=Orange Wool Slab
@@ -27,17 +32,39 @@ tile.vanillaExpansion_greenWoolBlockhalfslab.name=Green Wool Slab
 tile.vanillaExpansion_redWoolBlockhalfslab.name=Red Wool Slab
 tile.vanillaExpansion_blackWoolBlockhalfslab.name=Black Wool Slab
 
+tile.vanillaExpansion_whiteStainedClayHalfSlab.name=White Stained Clay Slab
+tile.vanillaExpansion_orangeStainedClayHalfSlab.name=Orange Stained Clay Slab
+tile.vanillaExpansion_magentaStainedClayHalfSlab.name=Magenta Stained Clay Slab
+tile.vanillaExpansion_lightBlueStainedClayHalfSlab.name=Light Blue Stained Clay Slab
+tile.vanillaExpansion_yellowStainedClayHalfSlab.name=Yellow Stained Clay Slab
+tile.vanillaExpansion_limeStainedClayHalfSlab.name=Lime Stained Clay Slab
+tile.vanillaExpansion_pinkStainedClayHalfSlab.name=Pink Stained Clay Slab
+tile.vanillaExpansion_grayStainedClayHalfSlab.name=Gray Stained Clay Slab
+tile.vanillaExpansion_lightGrayStainedClayHalfSlab.name=Light Gray Stained Clay Slab
+tile.vanillaExpansion_cyanStainedClayHalfSlab.name=Cyan Stained Clay Slab
+tile.vanillaExpansion_purpleStainedClayHalfSlab.name=Purple Stained Clay Slab
+tile.vanillaExpansion_blueStainedClayHalfSlab.name=Blue Stained Clay Slab
+tile.vanillaExpansion_brownStainedClayHalfSlab.name=Brown Stained Clay Slab
+tile.vanillaExpansion_greenStainedClayHalfSlab.name=Green Stained Clay Slab
+tile.vanillaExpansion_redStainedClayHalfSlab.name=Red Stained Clay Slab
+tile.vanillaExpansion_blackStainedClayHalfSlab.name=Black Stained Clay Slab
+
 tile.goldBlockStairs.name=Block of Gold Stairs
 tile.ironBlockStairs.name=Block of Iron Stairs
 tile.diamondBlockStairs.name=Block of Diamond Stairs
 tile.coalBlockStairs.name=Block of Coal Stairs
 tile.redstoneBlockStairs.name=Block of Redstone Stairs
 tile.lapisBlockStairs.name=Block of Lapis Stairs
+tile.emeraldBlockStairs.name=Block of Emerald Stairs
 
 tile.sandStairs.name=Sand Stairs
 tile.redSandStairs.name=Red Sand Stairs
 tile.dirtStairs.name=Dirt Stairs
 tile.netherrackBlockStairs.name=Netherrack Stairs
+
+tile.glowstoneBlockStairs.name=Glowstone Stairs
+tile.packedIceBlockStairs.name=Packed Ice Stairs
+tile.iceBlockStairs.name=Ice Stairs
 
 tile.whiteWoolBlockStairs.name=White Wool Stairs
 tile.orangeWoolBlockStairs.name=Orange Wool Stairs
@@ -55,3 +82,20 @@ tile.brownWoolBlockStairs.name=Brown Wool Stairs
 tile.greenWoolBlockStairs.name=Green Wool Stairs
 tile.redWoolBlockStairs.name=Red Wool Stairs
 tile.blackWoolBlockStairs.name=Black Wool Stairs
+
+tile.whiteStainedClayStairs.name=White Stained Clay Stairs
+tile.orangeStainedClayStairs.name=Orange Stained Clay Stairs
+tile.magentaStainedClayStairs.name=Magenta Stained Clay Stairs
+tile.lightBlueStainedClayStairs.name=Light Blue Stained Clay Stairs
+tile.yellowStainedClayStairs.name=Yellow Stained Clay Stairs
+tile.limeStainedClayStairs.name=Lime Stained Clay Stairs
+tile.pinkStainedClayStairs.name=Pink Stained Clay Stairs
+tile.grayStainedClayStairs.name=Gray Stained Clay Stairs
+tile.lightGrayStainedClayStairs.name=Light Gray Stained Clay Stairs
+tile.cyanStainedClayStairs.name=Cyan Stained Clay Stairs
+tile.purpleStainedClayStairs.name=Purple Stained Clay Stairs
+tile.blueStainedClayStairs.name=Blue Stained Clay Stairs
+tile.brownStainedClayStairs.name=Brown Stained Clay Stairs
+tile.greenStainedClayStairs.name=Green Stained Clay Stairs
+tile.redStainedClayStairs.name=Red Stained Clay Stairs
+tile.blackStainedClayStairs.name=Black Stained Clay Stairs
