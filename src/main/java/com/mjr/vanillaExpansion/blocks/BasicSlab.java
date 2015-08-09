@@ -22,9 +22,10 @@ public class BasicSlab extends BlockSlab {
 			setCreativeTab(tab);
 		}
 
-		name = blockName;
-		setBlockName(Constants.modID + "_" + blockName);
-		setHardness(1.5F);
+		this.name = blockName;
+		this.setBlockName(Constants.modID + "_" + blockName);
+		this.setHardness(1.5F);
+		this.setLightOpacity(0);
 		this.texturename = texturename;
 	}
 
