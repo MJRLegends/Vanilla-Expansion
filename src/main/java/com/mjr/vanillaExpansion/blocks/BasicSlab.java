@@ -36,11 +36,13 @@ public class BasicSlab extends BlockSlab {
 	public String func_150002_b(int p_150002_1_) {
 		return getUnlocalizedName();
 	}
+	@Override
 	public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
     {
         return Item.getItemFromBlock(this);
     }
-    public Item getItem(World p_149694_1_, int p_149694_2_, int p_149694_3_, int p_149694_4_)
+    @Override
+	public Item getItem(World p_149694_1_, int p_149694_2_, int p_149694_3_, int p_149694_4_)
     {
         return Item.getItemFromBlock(this);
     }

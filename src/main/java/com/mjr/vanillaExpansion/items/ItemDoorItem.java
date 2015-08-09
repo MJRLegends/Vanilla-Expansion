@@ -27,6 +27,7 @@ public class ItemDoorItem extends Item {
 			super.setTextureName(Constants.TEXTURE_PREFIX + "door_" + type);
 	}
 
+	@Override
 	public boolean onItemUse(ItemStack stack, EntityPlayer player, World world, int x, int y, int z, int side, float p_77648_8_, float p_77648_9_,
 			float p_77648_10_) {
 		if (side != 1) {
@@ -54,7 +55,7 @@ public class ItemDoorItem extends Item {
 				if (!block.canPlaceBlockAt(world, x, y, z)) {
 					return false;
 				} else {
-					int i1 = MathHelper.floor_double((double) ((player.rotationYaw + 180.0F) * 4.0F / 360.0F) - 0.5D) & 3;
+					int i1 = MathHelper.floor_double((player.rotationYaw + 180.0F) * 4.0F / 360.0F - 0.5D) & 3;
 					placeDoorBlock(world, x, y, z, i1, block);
 					--stack.stackSize;
 					return true;

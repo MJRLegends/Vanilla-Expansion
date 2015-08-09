@@ -1,36 +1,36 @@
-tile.vanillaExpansion_goldBlockhalfslab.name=Block of Gold Slab
-tile.vanillaExpansion_ironBlockhalfslab.name=Block of Iron Slab
-tile.vanillaExpansion_diamondBlockhalfslab.name=Block of Diamond Slab
-tile.vanillaExpansion_coalBlockhalfslab.name=Block of Coal Slab
-tile.vanillaExpansion_redstoneBlockhalfslab.name=Block of Redstone Slab
-tile.vanillaExpansion_lapisBlockhalfslab.name=Block of Lapis Slab
-tile.vanillaExpansion_emeraldBlockhalfSlab.name=Block of Emerald Slab
+tile.vanillaExpansion_goldBlockHalfSlab.name=Block of Gold Slab
+tile.vanillaExpansion_ironBlockHalfSlab.name=Block of Iron Slab
+tile.vanillaExpansion_diamondBlockHalfSlab.name=Block of Diamond Slab
+tile.vanillaExpansion_coalBlockHalfSlab.name=Block of Coal Slab
+tile.vanillaExpansion_redstoneBlockHalfSlab.name=Block of Redstone Slab
+tile.vanillaExpansion_lapisBlockHalfSlab.name=Block of Lapis Slab
+tile.vanillaExpansion_emeraldBlockHalfSlab.name=Block of Emerald Slab
 
-tile.vanillaExpansion_sandhalfslab.name=Sand Slab
-tile.vanillaExpansion_redSandhalfslab.name=Red Sand Slab
-tile.vanillaExpansion_dirtBlockhalfslab.name=Dirt Slab
-tile.vanillaExpansion_netherrackBlockhalfslab.name=Netherrack Slab
+tile.vanillaExpansion_sandHalfSlab.name=Sand Slab
+tile.vanillaExpansion_redSandHalfSlab.name=Red Sand Slab
+tile.vanillaExpansion_dirtBlockHalfSlab.name=Dirt Slab
+tile.vanillaExpansion_netherrackBlockHalfSlab.name=Netherrack Slab
 
-tile.vanillaExpansion_glowstoneBlockhalfSlab.name=Glowstone Slab
-tile.vanillaExpansion_packedIceBlockhalfslab.name=Packed Ice Slab
-tile.vanillaExpansion_iceBlockhalfslab.name=Ice Slab
+tile.vanillaExpansion_glowstoneBlockHalfSlab.name=Glowstone Slab
+tile.vanillaExpansion_packedIceBlockHalfSlab.name=Packed Ice Slab
+tile.vanillaExpansion_iceBlockHalfSlab.name=Ice Slab
 
-tile.vanillaExpansion_whiteWoolBlockhalfslab.name=White Wool Slab
-tile.vanillaExpansion_orangeWoolBlockhalfslab.name=Orange Wool Slab
-tile.vanillaExpansion_magentaWoolBlockhalfslab.name=Magenta Wool Slab
-tile.vanillaExpansion_lightBlueWoolBlockhalfslab.name=Light Blue Wool Slab
-tile.vanillaExpansion_yellowWoolBlockhalfslab.name=Yellow Wool Slab
-tile.vanillaExpansion_limeWoolBlockhalfslab.name=Lime Wool Slab
-tile.vanillaExpansion_pinkWoolBlockhalfslab.name=Pink Wool Slab
-tile.vanillaExpansion_grayWoolBlockhalfslab.name=Gray Wool Slab
-tile.vanillaExpansion_lightGrayWoolBlockhalfslab.name=Light Gray Wool Slab
-tile.vanillaExpansion_cyanWoolBlockhalfslab.name=Cyan Wool Slab
-tile.vanillaExpansion_purpleWoolBlockhalfslab.name=Purple Wool Slab
-tile.vanillaExpansion_blueWoolBlockhalfslab.name=Blue Wool Slab
-tile.vanillaExpansion_brownWoolBlockhalfslab.name=Brown Wool Slab
-tile.vanillaExpansion_greenWoolBlockhalfslab.name=Green Wool Slab
-tile.vanillaExpansion_redWoolBlockhalfslab.name=Red Wool Slab
-tile.vanillaExpansion_blackWoolBlockhalfslab.name=Black Wool Slab
+tile.vanillaExpansion_whiteWoolBlockHalfSlab.name=White Wool Slab
+tile.vanillaExpansion_orangeWoolBlockHalfSlab.name=Orange Wool Slab
+tile.vanillaExpansion_magentaWoolBlockHalfSlab.name=Magenta Wool Slab
+tile.vanillaExpansion_lightBlueWoolBlockHalfSlab.name=Light Blue Wool Slab
+tile.vanillaExpansion_yellowWoolBlockHalfSlab.name=Yellow Wool Slab
+tile.vanillaExpansion_limeWoolBlockHalfSlab.name=Lime Wool Slab
+tile.vanillaExpansion_pinkWoolBlockHalfSlab.name=Pink Wool Slab
+tile.vanillaExpansion_grayWoolBlockHalfSlab.name=Gray Wool Slab
+tile.vanillaExpansion_lightGrayWoolBlockHalfSlab.name=Light Gray Wool Slab
+tile.vanillaExpansion_cyanWoolBlockHalfSlab.name=Cyan Wool Slab
+tile.vanillaExpansion_purpleWoolBlockHalfSlab.name=Purple Wool Slab
+tile.vanillaExpansion_blueWoolBlockHalfSlab.name=Blue Wool Slab
+tile.vanillaExpansion_brownWoolBlockHalfSlab.name=Brown Wool Slab
+tile.vanillaExpansion_greenWoolBlockHalfSlab.name=Green Wool Slab
+tile.vanillaExpansion_redWoolBlockHalfSlab.name=Red Wool Slab
+tile.vanillaExpansion_blackWoolBlockHalfSlab.name=Black Wool Slab
 
 tile.vanillaExpansion_whiteStainedClayHalfSlab.name=White Stained Clay Slab
 tile.vanillaExpansion_orangeStainedClayHalfSlab.name=Orange Stained Clay Slab
@@ -48,6 +48,8 @@ tile.vanillaExpansion_brownStainedClayHalfSlab.name=Brown Stained Clay Slab
 tile.vanillaExpansion_greenStainedClayHalfSlab.name=Green Stained Clay Slab
 tile.vanillaExpansion_redStainedClayHalfSlab.name=Red Stained Clay Slab
 tile.vanillaExpansion_blackStainedClayHalfSlab.name=Black Stained Clay Slab
+tile.vanillaExpansion_clayHalfSlab.name=Black Stained Clay Slab
+tile.vanillaExpansion_hardenClayHalfSlab.name=Black Stained Clay Slab
 
 tile.goldBlockStairs.name=Block of Gold Stairs
 tile.ironBlockStairs.name=Block of Iron Stairs
@@ -99,3 +101,66 @@ tile.brownStainedClayStairs.name=Brown Stained Clay Stairs
 tile.greenStainedClayStairs.name=Green Stained Clay Stairs
 tile.redStainedClayStairs.name=Red Stained Clay Stairs
 tile.blackStainedClayStairs.name=Black Stained Clay Stairs
+tile.clayStairs.name=Clay Stairs
+tile.hardenClayStairs.name=Harden Clay Stairs
+
+
+item.banana.name=Banana
+item.strawberry.name=Strawberry
+item.cherry.name=Cherry
+item.grape.name=Grapes
+item.lemon.name=Lemon
+item.lettuce.name=Lettuce
+item.mango.name=Mango
+item.pasta.name=Pasta
+item.rawPasta.name=Raw Pasta
+item.four.name=Four
+item.dough.name=Dough
+item.milkshake.name=Milkshake
+item.milkshakepowder.name=Milkshake Powder
+item.knife.name=Knife
+item.mixingbowl.name=Mixing Bowl
+item.rollingPin.name=Rolling Pin
+item.strawberrySeed.name=Strawberry Seeds
+item.grapeSeed.name=Grape Seeds
+item.lettuceSeed.name=Lettuce Seeds
+
+tile.bananaLeaf.name=Banana Leaf
+tile.bananaLog.name=Banana Log
+tile.bananaSapling.name=Banana Sapling
+
+tile.lemonLeaf.name=Lemon Leaf
+tile.lemonLog.name=Lemon Log
+tile.lemonSapling.name=Lemon Sapling
+
+tile.mangoLeaf.name=Mango Leaf
+tile.mangoLog.name=Mango Log
+tile.mangoSapling.name=Mango Sapling
+
+tile.cherryLeaf.name=Cherry Leaf
+tile.cherryLog.name=Cherry Logf
+tile.cherrySapling.name=Cherry Sapling
+
+item.goldDoor.name=Gold Door
+item.diamondDoor.name=Diamond Door
+item.dark_oakDoor.name=Dark Oak Door
+item.spruceDoor.name=Dark Oak Door
+item.jungleDoor.name=Jungle Door
+item.acaciaDoor.name=Acacia Door
+item.birchDoor.name=Birch Door
+
+tile.goldDoor.name=Gold Door
+tile.diamondDoor.name=Diamond Door
+tile.darkOakDoor.name=Dark Oak Door
+tile.spruceDoor.name=Dark Oak Door
+tile.jungleDoor.name=Jungle Door
+tile.acaciaDoor.name=Acacia Door
+tile.birchDoor.name=Birch Door
+
+item.rawBread.name=Raw Bread
+item.breadDough.name=Bread Dough
+item.strawberryIceCream.name=Strawberry Ice Cream
+
+tile.grape.name=Grape Plant
+tile.lettuce.name=Lettuce Plant
+tile.strawberry.name=Strawberry Plant

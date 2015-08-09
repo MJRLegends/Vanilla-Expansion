@@ -21,6 +21,7 @@ public class BlockCustomDoor extends BlockDoor {
 		super.disableStats();
 	}
 
+	@Override
 	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int meta, float p_149727_7_, float p_149727_8_, float p_149727_9_) {
 		if (this.getUnlocalizedName().equalsIgnoreCase("tile.goldDoor") || this.getUnlocalizedName().equalsIgnoreCase("tile.diamondDoor"))
 			return false;
@@ -42,6 +43,7 @@ public class BlockCustomDoor extends BlockDoor {
 		}
 	}
 
+	@Override
 	public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_) {
 		return this.getUnlocalizedName().equalsIgnoreCase("tile.goldDoor") ? Items_Main.goldDoorItem : this.getUnlocalizedName().equalsIgnoreCase(
 				"tile.diamondDoor") ? Items_Main.diamondDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.darkOakDoor") ? Items_Main.darkOakDoorItem
@@ -50,6 +52,7 @@ public class BlockCustomDoor extends BlockDoor {
 						: this.getUnlocalizedName().equalsIgnoreCase("tile.acaciaDoor") ? Items_Main.acaciaDoorItem : Items_Main.birchDoorItem;
 	}
 
+	@Override
 	@SideOnly(Side.CLIENT)
 	public Item getItem(World p_149694_1_, int p_149694_2_, int p_149694_3_, int p_149694_4_) {
 		return this.getUnlocalizedName().equalsIgnoreCase("tile.goldDoor") ? Items_Main.goldDoorItem : this.getUnlocalizedName().equalsIgnoreCase(
@@ -59,6 +62,7 @@ public class BlockCustomDoor extends BlockDoor {
 						: this.getUnlocalizedName().equalsIgnoreCase("tile.acaciaDoor") ? Items_Main.acaciaDoorItem : Items_Main.birchDoorItem;
 	}
 
+	@Override
 	public int getMobilityFlag() {
 		return 2;
 	}

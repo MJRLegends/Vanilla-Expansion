@@ -1,9 +1,13 @@
 package com.mjr.vanillaExpansion;
 
-import com.mjr.vanillaExpansion.blocks.Blocks_Main;
-
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
+
+import com.mjr.vanillaExpansion.blocks.Blocks_Main;
+import com.mjr.vanillaExpansion.items.Items_Main;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Recipes {
@@ -17,8 +21,7 @@ public class Recipes {
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.lapisBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.lapis_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.emeraldBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.emerald_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.netherrackBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.netherrack, 1, 0) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.redstoneBlockHalfSlab, 6),
-				new Object[] { "XXX", 'X', new ItemStack(Blocks.redstone_block, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.redstoneBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.redstone_block, 1, 0) });
 
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.glowstoneBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.glowstone, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.packedIceBlockHalfSlab, 6), new Object[] { "XXX", 'X', new ItemStack(Blocks.packed_ice, 1, 0) });
@@ -78,16 +81,16 @@ public class Recipes {
 
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.sandStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.sand, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.redSandStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.sand, 1, 1) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.goldBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.gold_block, 1, 0) });
+		GameRegistry
+				.addRecipe(new ItemStack(Blocks_Main.goldBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.gold_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.diamondBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
 				new ItemStack(Blocks.diamond_block, 1, 0) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.ironBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.iron_block, 1, 0) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.coalBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.coal_block, 1, 0) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.lapisBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.lapis_block, 1, 0) });
+		GameRegistry
+				.addRecipe(new ItemStack(Blocks_Main.ironBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.iron_block, 1, 0) });
+		GameRegistry
+				.addRecipe(new ItemStack(Blocks_Main.coalBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.coal_block, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.lapisBlockStairs, 4),
+				new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.lapis_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.emeraldBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
 				new ItemStack(Blocks.emerald_block, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.netherrackBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
@@ -101,38 +104,31 @@ public class Recipes {
 				new ItemStack(Blocks.packed_ice, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.iceBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.ice, 1, 0) });
 
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.whiteWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 0) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.orangeWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 1) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.magentaWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 2) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.whiteWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 0) });
+		GameRegistry
+				.addRecipe(new ItemStack(Blocks_Main.orangeWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 1) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.magentaWoolBlockStairs, 1),
+				new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 2) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.lightBlueWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#',
 				new ItemStack(Blocks.wool, 1, 3) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.yellowWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 4) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.limeWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 5) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.pinkWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 6) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.grayWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 7) });
+		GameRegistry
+				.addRecipe(new ItemStack(Blocks_Main.yellowWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 4) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.limeWoolBlockStairs, 1), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 5) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.pinkWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 6) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.grayWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 7) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.lightBlueWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
 				new ItemStack(Blocks.wool, 1, 8) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.cyanWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 9) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.purpleWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 10) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.blueWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 11) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.brownWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 12) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.greenWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 13) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.redWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 14) });
-		GameRegistry.addRecipe(new ItemStack(Blocks_Main.blackWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#',
-				new ItemStack(Blocks.wool, 1, 15) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.cyanWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 9) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.purpleWoolBlockStairs, 4),
+				new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 10) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.blueWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 11) });
+		GameRegistry
+				.addRecipe(new ItemStack(Blocks_Main.brownWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 12) });
+		GameRegistry
+				.addRecipe(new ItemStack(Blocks_Main.greenWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 13) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.redWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 14) });
+		GameRegistry
+				.addRecipe(new ItemStack(Blocks_Main.blackWoolBlockStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.wool, 1, 15) });
 
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.dirtStairs, 4), new Object[] { "#  ", "## ", "###", '#', new ItemStack(Blocks.dirt, 1, 0) });
 
@@ -169,5 +165,54 @@ public class Recipes {
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.blackStainedClayStairs, 6), new Object[] { "#  ", "## ", "###", '#',
 				new ItemStack(Blocks.stained_hardened_clay, 1, 15) });
 
+		GameRegistry.addRecipe(new ItemStack(Items_Main.bacon, 5), new Object[] { "YZ ", "   ", "   ", 'Y', new ItemStack(Items.porkchop, 1, 0), 'Z',
+				new ItemStack(Items_Main.knife, 1, OreDictionary.WILDCARD_VALUE) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.milkshakepowder, 4), new Object[] { "YZ ", "   ", "   ", 'Y',
+				new ItemStack(Items_Main.strawberry, 1, 0), 'Z', new ItemStack(Items_Main.mixingbowl, 1, OreDictionary.WILDCARD_VALUE) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.four, 2), new Object[] { "Y Y", "YZY", "Y Y", 'Y', new ItemStack(Items.wheat, 1, 0), 'Z',
+				new ItemStack(Items_Main.mixingbowl, 1, OreDictionary.WILDCARD_VALUE) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.dough, 6), new Object[] { "YZE", "EE ", "   ", 'Y', new ItemStack(Items_Main.four, 1, 0), 'E',
+				new ItemStack(Items.egg, 1, 0), 'Z', new ItemStack(Items_Main.mixingbowl, 1, OreDictionary.WILDCARD_VALUE) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.breadDough, 6), new Object[] { "YZ ", "   ", "   ", 'Y', new ItemStack(Items_Main.four, 1, 0), 'Z',
+				new ItemStack(Items_Main.mixingbowl, 1, OreDictionary.WILDCARD_VALUE) });
+
+		GameRegistry.addRecipe(new ItemStack(Items_Main.rawPasta, 3), new Object[] { "YZ ", "   ", "   ", 'Y', new ItemStack(Items_Main.dough, 1, 0), 'Z',
+				new ItemStack(Items_Main.rollingPin, 1, OreDictionary.WILDCARD_VALUE) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.milkshake, 1), new Object[] { "YMB", "   ", "   ", 'Y',
+				new ItemStack(Items_Main.milkshakepowder, 1, 0), 'M', new ItemStack(Items.milk_bucket, 1, 0), 'B', new ItemStack(Items.glass_bottle, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.rollingPin, 1), new Object[] { "   ", "SWS", "   ", 'W',
+				new ItemStack(Blocks.planks, 1, OreDictionary.WILDCARD_VALUE), 'S', new ItemStack(Items.stick, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.mixingbowl, 1), new Object[] { "   ", " BS", "   ", 'B', new ItemStack(Items.bowl, 1, 0), 'S',
+				new ItemStack(Items.stick, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.knife, 1), new Object[] { "  B", "  S", "   ", 'B', new ItemStack(Items.iron_ingot, 1, 0), 'S',
+				new ItemStack(Items.stick, 1, 0) });
+
+		GameRegistry.addRecipe(new ItemStack(Items.cake, 1), new Object[] { "MMM", "SES", "DDD", 'M', new ItemStack(Items.milk_bucket, 1, 0), 'S',
+				new ItemStack(Items.sugar, 1, 0), 'E', new ItemStack(Items.egg, 1, 0), 'D', new ItemStack(Items_Main.dough, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.rawBread, 1), new Object[] { "   ", "DFZ", "   ", 'F', new ItemStack(Items_Main.four, 1, 0), 'D',
+				new ItemStack(Items_Main.breadDough, 1, 0), 'Z', new ItemStack(Items_Main.rollingPin, 1, OreDictionary.WILDCARD_VALUE) });
+
+		GameRegistry.addRecipe(new ItemStack(Items_Main.strawberryIceCream, 1), new Object[] { "FF ", "DZB", "   ", 'F', new ItemStack(Items.snowball, 1, 0),
+				'D', new ItemStack(Items_Main.strawberry, 1, 0), 'B', new ItemStack(Items.bowl, 1, 0), 'Z',
+				new ItemStack(Items_Main.mixingbowl, 1, OreDictionary.WILDCARD_VALUE) });
+
+		GameRegistry.addRecipe(new ItemStack(Items.wooden_door, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 0) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.spruceDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 1, 1) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.birchDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 1, 2) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.jungleDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 1, 3) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.acaciaDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 1, 4) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.darkOakDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 1, 5) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.goldDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Items.gold_ingot, 1) });
+		GameRegistry.addRecipe(new ItemStack(Items_Main.diamondDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Items.diamond, 1) });
 	}
+
+	public static void furnaceRecipes() {
+		// GameRegistry.addSmelting(Items_Main.rawBacon, new
+		// ItemStack(Items_Main.bacon, 1), 5);
+		// GameRegistry.addSmelting(Items_Main.rawChickenNuggets, new
+		// ItemStack(Items_Main.chickenNuggets, 1), 5);
+		GameRegistry.addSmelting(Items_Main.rawPasta, new ItemStack(Items_Main.pasta, 1), 5);
+		GameRegistry.addSmelting(Items_Main.rawBread, new ItemStack(Items.bread, 1), 5);
+	}
+
 }
