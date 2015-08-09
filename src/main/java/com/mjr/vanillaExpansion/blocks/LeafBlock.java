@@ -20,6 +20,7 @@ import net.minecraftforge.common.IShearable;
 import net.minecraftforge.common.util.ForgeDirection;
 
 import com.mjr.vanillaExpansion.Constants;
+import com.mjr.vanillaExpansion.VanillaExpansion;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -48,7 +49,7 @@ public class LeafBlock extends BlockLeavesBase implements IShearable {
 		this.setTickRandomly(true);
 		this.setLightOpacity(1);
 		this.setStepSound(Block.soundTypeGrass);
-		//this.setCreativeTab(AdditionalFood.BlocksTab);
+		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		this.setBlockName(name);
 		this.Drop = drop;
 		this.Sapling = Sapling;

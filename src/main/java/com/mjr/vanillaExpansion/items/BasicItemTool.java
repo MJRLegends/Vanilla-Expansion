@@ -4,11 +4,12 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 import com.mjr.vanillaExpansion.Constants;
+import com.mjr.vanillaExpansion.VanillaExpansion;
 
 public class BasicItemTool extends Item{
 	public BasicItemTool(String name, int maxDamage) {
 		super();
-		//this.setCreativeTab(AdditionalFood.ItemsTab);
+		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		this.setTextureName(Constants.TEXTURE_PREFIX + name);
 		this.setUnlocalizedName(name);
 		this.setMaxDamage(maxDamage);

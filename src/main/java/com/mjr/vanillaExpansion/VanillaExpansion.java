@@ -2,7 +2,9 @@ package com.mjr.vanillaExpansion;
 
 import java.util.ArrayList;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
@@ -30,6 +32,13 @@ public class VanillaExpansion {
 
 	@Instance(Constants.modID)
 	public static VanillaExpansion instance;
+	
+	public static CreativeTabs vanillaExpansionTab = new CreativeTabs("vanillaExpansionTab") {
+		@Override
+		public Item getTabIconItem() {
+		    return Item.getItemFromBlock(Blocks_Main.purpleStainedClayHalfSlab);
+		}
+	    };
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

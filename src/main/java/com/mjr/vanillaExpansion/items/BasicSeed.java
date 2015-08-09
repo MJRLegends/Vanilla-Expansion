@@ -11,6 +11,7 @@ import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.util.ForgeDirection;
 
 import com.mjr.vanillaExpansion.Constants;
+import com.mjr.vanillaExpansion.VanillaExpansion;
 
 public class BasicSeed extends Item implements IPlantable
 {
@@ -23,7 +24,7 @@ public class BasicSeed extends Item implements IPlantable
     {
         this.field_150925_a = p_i45352_1_;
         this.soilBlockID = p_i45352_2_;
-        //this.setCreativeTab(AdditionalFood.ItemsTab);
+		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
         this.setUnlocalizedName(name);
         this.setTextureName(Constants.TEXTURE_PREFIX + name);
     }

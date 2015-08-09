@@ -5,6 +5,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 
 import com.mjr.vanillaExpansion.Constants;
+import com.mjr.vanillaExpansion.VanillaExpansion;
 import com.mjr.vanillaExpansion.items.Items_Main;
 import com.mjr.vanillaExpansion.items.slabs.BlackStainedClayBlockItemSlab;
 import com.mjr.vanillaExpansion.items.slabs.BlackWoolBlockItemSlab;
@@ -60,150 +61,150 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class Blocks_Main {
 
 	public static Block sandHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "sandHalfSlab", "sand");
-	public static Block sandDoubleSlab = new BasicSlab(true, null, "sandFullSlab", "sand");
+	public static Block sandDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "sandFullSlab", "sand");
 
 	public static Block redSandHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "redSandHalfSlab", "red_sand");
-	public static Block redSandDoubleSlab = new BasicSlab(true, null, "redSandFullSlab", "red_sand");
+	public static Block redSandDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "redSandFullSlab", "red_sand");
 
 	public static Block goldBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "goldBlockHalfSlab", "gold_block");
-	public static Block goldBlockDoubleSlab = new BasicSlab(true, null, "goldBlockFullSlab", "gold_block");
+	public static Block goldBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "goldBlockFullSlab", "gold_block");
 
 	public static Block diamondBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "diamondBlockHalfSlab", "diamond_block");
-	public static Block diamondBlockDoubleSlab = new BasicSlab(true, null, "diamondBlockFullSlab", "diamond_block");
+	public static Block diamondBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "diamondBlockFullSlab", "diamond_block");
 
 	public static Block ironBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "ironBlockHalfSlab", "iron_block");
-	public static Block ironBlockDoubleSlab = new BasicSlab(true, null, "ironBlockFullSlab", "iron_block");
+	public static Block ironBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "ironBlockFullSlab", "iron_block");
 
 	public static Block coalBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "coalBlockHalfSlab", "coal_block");
-	public static Block coalBlockDoubleSlab = new BasicSlab(true, null, "coalBlockFullSlab", "coal_block");
+	public static Block coalBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "coalBlockFullSlab", "coal_block");
 
 	public static Block lapisBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "lapisBlockHalfSlab", "lapis_block");
-	public static Block lapisBlockDoubleSlab = new BasicSlab(true, null, "lapisBlockFullSlab", "lapis_block");
+	public static Block lapisBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "lapisBlockFullSlab", "lapis_block");
 
 	public static Block emeraldBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "emeraldBlockHalfSlab", "emerald_block");
-	public static Block emeraldBlockDoubleSlab = new BasicSlab(true, null, "emeraldBlockFullSlab", "emerald_block");
+	public static Block emeraldBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "emeraldBlockFullSlab", "emerald_block");
 
 	public static Block netherrackBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "netherrackBlockHalfSlab", "netherrack");
-	public static Block netherrackBlockDoubleSlab = new BasicSlab(true, null, "netherrackBlockFullSlab", "netherrack");
+	public static Block netherrackBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "netherrackBlockFullSlab", "netherrack");
 
 	public static Block redstoneBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "redstoneBlockHalfSlab", "redstone_block");
-	public static Block redstoneBlockDoubleSlab = new BasicSlab(true, null, "redstoneBlockFullSlab", "redstone_block");
+	public static Block redstoneBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "redstoneBlockFullSlab", "redstone_block");
 
 	public static Block glowstoneBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "glowstoneBlockHalfSlab", "glowstone");
-	public static Block glowstoneBlockDoubleSlab = new BasicSlab(true, null, "glowstoneBlockFullSlab", "glowstone");
+	public static Block glowstoneBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "glowstoneBlockFullSlab", "glowstone");
 
 	public static Block packedIceBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "packedIceBlockHalfSlab", "ice_packed");
-	public static Block packedIceBlockDoubleSlab = new BasicSlab(true, null, "packedIceBlockFullSlab", "ice_packed");
+	public static Block packedIceBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "packedIceBlockFullSlab", "ice_packed");
 
 	public static Block iceBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "iceBlockHalfSlab", "ice");
-	public static Block iceBlockDoubleSlab = new BasicSlab(true, null, "iceBlockFullSlab", "ice");
+	public static Block iceBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "iceBlockFullSlab", "ice");
 
 	public static Block whiteWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "whiteWoolBlockHalfSlab", "wool_colored_white");
-	public static Block whiteWoolBlockDoubleSlab = new BasicSlab(true, null, "whiteWoolBlockFullSlab", "wool_colored_white");
+	public static Block whiteWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "whiteWoolBlockFullSlab", "wool_colored_white");
 
 	public static Block orangeWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "orangeWoolBlockHalfSlab", "wool_colored_orange");
-	public static Block orangeWoolBlockDoubleSlab = new BasicSlab(true, null, "orangeWoolBlockFullSlab", "wool_colored_orange");
+	public static Block orangeWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "orangeWoolBlockFullSlab", "wool_colored_orange");
 
 	public static Block magentaWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "magentaWoolBlockHalfSlab", "wool_colored_magenta");
-	public static Block magentaWoolBlockDoubleSlab = new BasicSlab(true, null, "magentaWoolBlockFullSlab", "wool_colored_magenta");
+	public static Block magentaWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "magentaWoolBlockFullSlab", "wool_colored_magenta");
 
 	public static Block lightBlueWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "lightBlueWoolBlockHalfSlab", "wool_colored_light_blue");
-	public static Block lightBlueWoolBlockDoubleSlab = new BasicSlab(true, null, "lightBlueWoolBlockFullSlab", "wool_colored_light_blue");
+	public static Block lightBlueWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "lightBlueWoolBlockFullSlab", "wool_colored_light_blue");
 
 	public static Block yellowWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "yellowWoolBlockHalfSlab", "wool_colored_yellow");
-	public static Block yellowWoolBlockDoubleSlab = new BasicSlab(true, null, "yellowWoolBlockFullSlab", "wool_colored_yellow");
+	public static Block yellowWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "yellowWoolBlockFullSlab", "wool_colored_yellow");
 
 	public static Block limeWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "limeWoolBlockHalfSlab", "wool_colored_lime");
-	public static Block limeWoolBlockDoubleSlab = new BasicSlab(true, null, "limeWoolBlockFullSlab", "wool_colored_lime");
+	public static Block limeWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "limeWoolBlockFullSlab", "wool_colored_lime");
 
 	public static Block pinkWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "pinkWoolBlockHalfSlab", "wool_colored_pink");
-	public static Block pinkWoolBlockDoubleSlab = new BasicSlab(true, null, "pinkWoolBlockFullSlab", "wool_colored_pink");
+	public static Block pinkWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "pinkWoolBlockFullSlab", "wool_colored_pink");
 
 	public static Block grayWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "grayWoolBlockHalfSlab", "wool_colored_gray");
-	public static Block grayWoolBlockDoubleSlab = new BasicSlab(true, null, "grayWoolBlockFullSlab", "wool_colored_gray");
+	public static Block grayWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "grayWoolBlockFullSlab", "wool_colored_gray");
 
 	public static Block lightGrayWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "lightGrayWoolBlockHalfSlab", "wool_colored_silver");
-	public static Block lightGrayWoolBlockDoubleSlab = new BasicSlab(true, null, "lightGrayWoolBlockFullSlab", "wool_colored_silver");
+	public static Block lightGrayWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "lightGrayWoolBlockFullSlab", "wool_colored_silver");
 
 	public static Block cyanWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "cyanWoolBlockHalfSlab", "wool_colored_cyan");
-	public static Block cyanWoolBlockDoubleSlab = new BasicSlab(true, null, "cyanWoolBlockFullSlab", "wool_colored_cyan");
+	public static Block cyanWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "cyanWoolBlockFullSlab", "wool_colored_cyan");
 
 	public static Block purpleWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "purpleWoolBlockHalfSlab", "wool_colored_purple");
-	public static Block purpleWoolBlockDoubleSlab = new BasicSlab(true, null, "purpleWoolBlockFullSlab", "wool_colored_purple");
+	public static Block purpleWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "purpleWoolBlockFullSlab", "wool_colored_purple");
 
 	public static Block blueWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "blueWoolBlockHalfSlab", "wool_colored_blue");
-	public static Block blueWoolBlockDoubleSlab = new BasicSlab(true, null, "blueWoolBlockFullSlab", "wool_colored_blue");
+	public static Block blueWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "blueWoolBlockFullSlab", "wool_colored_blue");
 
 	public static Block brownWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "brownWoolBlockHalfSlab", "wool_colored_brown");
-	public static Block brownWoolBlockDoubleSlab = new BasicSlab(true, null, "brownWoolBlockFullSlab", "wool_colored_brown");
+	public static Block brownWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "brownWoolBlockFullSlab", "wool_colored_brown");
 
 	public static Block greenWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "greenWoolBlockHalfSlab", "wool_colored_green");
-	public static Block greenWoolBlockDoubleSlab = new BasicSlab(true, null, "greenWoolBlockFullSlab", "wool_colored_green");
+	public static Block greenWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "greenWoolBlockFullSlab", "wool_colored_green");
 
 	public static Block redWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "redWoolBlockHalfSlab", "wool_colored_red");
-	public static Block redWoolBlockDoubleSlab = new BasicSlab(true, null, "redWoolBlockFullSlab", "wool_colored_red");
+	public static Block redWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "redWoolBlockFullSlab", "wool_colored_red");
 
 	public static Block blackWoolBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "blackWoolBlockHalfSlab", "wool_colored_black");
-	public static Block blackWoolBlockDoubleSlab = new BasicSlab(true, null, "blackWoolBlockFullSlab", "wool_colored_black");
+	public static Block blackWoolBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "blackWoolBlockFullSlab", "wool_colored_black");
 
 	public static Block dirtBlockHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "dirtBlockHalfSlab", "dirt");
-	public static Block dirtBlockDoubleSlab = new BasicSlab(true, null, "dirtBlockFullSlab", "dirt");
+	public static Block dirtBlockDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "dirtBlockFullSlab", "dirt");
 
 	public static Block clayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "clayHalfSlab", "clay");
-	public static Block clayDoubleSlab = new BasicSlab(true, null, "clayFullSlab", "clay");
+	public static Block clayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "clayFullSlab", "clay");
 
 	public static Block hardenClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "hardenClayHalfSlab", "hardened_clay");
-	public static Block hardenClayDoubleSlab = new BasicSlab(true, null, "hardenClayFullSlab", "hardened_clay");
+	public static Block hardenClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "hardenClayFullSlab", "hardened_clay");
 
 	public static Block whiteStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "whiteStainedClayHalfSlab", "hardened_clay_stained_white");
-	public static Block whiteStainedClayDoubleSlab = new BasicSlab(true, null, "whiteStainedClayFullSlab", "hardened_clay_stained_white");
+	public static Block whiteStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "whiteStainedClayFullSlab", "hardened_clay_stained_white");
 
 	public static Block orangeStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "orangeStainedClayHalfSlab", "hardened_clay_stained_orange");
-	public static Block orangeStainedClayDoubleSlab = new BasicSlab(true, null, "orangeStainedClayFullSlab", "hardened_clay_stained_orange");
+	public static Block orangeStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "orangeStainedClayFullSlab", "hardened_clay_stained_orange");
 
 	public static Block magentaStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "magentaStainedClayHalfSlab", "hardened_clay_stained_magenta");
-	public static Block magentaStainedClayDoubleSlab = new BasicSlab(true, null, "magentaStainedClayFullSlab", "hardened_clay_stained_magenta");
+	public static Block magentaStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "magentaStainedClayFullSlab", "hardened_clay_stained_magenta");
 
 	public static Block lightBlueStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "lightBlueStainedClayHalfSlab",
 			"hardened_clay_stained_light_blue");
-	public static Block lightBlueStainedClayDoubleSlab = new BasicSlab(true, null, "lightBlueStainedClayFullSlab", "hardened_clay_stained_light_blue");
+	public static Block lightBlueStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "lightBlueStainedClayFullSlab", "hardened_clay_stained_light_blue");
 
 	public static Block yellowStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "yellowStainedClayHalfSlab", "hardened_clay_stained_yellow");
-	public static Block yellowStainedClayDoubleSlab = new BasicSlab(true, null, "yellowStainedClayFullSlab", "hardened_clay_stained_yellow");
+	public static Block yellowStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "yellowStainedClayFullSlab", "hardened_clay_stained_yellow");
 
 	public static Block limeStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "limeStainedClayHalfSlab", "hardened_clay_stained_lime");
-	public static Block limeStainedClayDoubleSlab = new BasicSlab(true, null, "limeStainedClayFullSlab", "hardened_clay_stained_lime");
+	public static Block limeStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "limeStainedClayFullSlab", "hardened_clay_stained_lime");
 
 	public static Block pinkStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "pinkStainedClayHalfSlab", "hardened_clay_stained_pink");
-	public static Block pinkStainedClayDoubleSlab = new BasicSlab(true, null, "dpinkStainedClayFullSlab", "hardened_clay_stained_pink");
+	public static Block pinkStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "dpinkStainedClayFullSlab", "hardened_clay_stained_pink");
 
 	public static Block grayStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "grayStainedClayHalfSlab", "hardened_clay_stained_gray");
-	public static Block grayStainedClayDoubleSlab = new BasicSlab(true, null, "grayStainedClayFullSlab", "hardened_clay_stained_gray");
+	public static Block grayStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "grayStainedClayFullSlab", "hardened_clay_stained_gray");
 
 	public static Block lightGrayStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "lightGrayStainedClayHalfSlab",
 			"hardened_clay_stained_silver");
-	public static Block lightGrayStainedClayDoubleSlab = new BasicSlab(true, null, "lightGrayStainedClayFullSlab", "hardened_clay_stained_silver");
+	public static Block lightGrayStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "lightGrayStainedClayFullSlab", "hardened_clay_stained_silver");
 
 	public static Block cyanStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "cyanStainedClayHalfSlab", "hardened_clay_stained_cyan");
-	public static Block cyanStainedClayDoubleSlab = new BasicSlab(true, null, "cyanStainedClayFullSlab", "hardened_clay_stained_cyan");
+	public static Block cyanStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "cyanStainedClayFullSlab", "hardened_clay_stained_cyan");
 
 	public static Block purpleStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "purpleStainedClayHalfSlab", "hardened_clay_stained_purple");
-	public static Block purpleStainedClayDoubleSlab = new BasicSlab(true, null, "purpleStainedClayFullSlab", "hardened_clay_stained_purple");
+	public static Block purpleStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "purpleStainedClayFullSlab", "hardened_clay_stained_purple");
 
 	public static Block blueStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "blueStainedClayHalfSlab", "hardened_clay_stained_blue");
-	public static Block blueStainedClayDoubleSlab = new BasicSlab(true, null, "blueStainedClayFullSlab", "hardened_clay_stained_blue");
+	public static Block blueStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "blueStainedClayFullSlab", "hardened_clay_stained_blue");
 
 	public static Block brownStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "brownStainedClayHalfSlab", "hardened_clay_stained_brown");
-	public static Block brownStainedClayDoubleSlab = new BasicSlab(true, null, "brownStainedClayFullSlab", "hardened_clay_stained_brown");
+	public static Block brownStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "brownStainedClayFullSlab", "hardened_clay_stained_brown");
 
 	public static Block greenStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "greenStainedClayHalfSlab", "hardened_clay_stained_green");
-	public static Block greenStainedClayDoubleSlab = new BasicSlab(true, null, "greenStainedClayFullSlab", "hardened_clay_stained_green");
+	public static Block greenStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "greenStainedClayFullSlab", "hardened_clay_stained_green");
 
 	public static Block redStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "redStainedClayHalfSlab", "hardened_clay_stained_red");
-	public static Block redStainedClayDoubleSlab = new BasicSlab(true, null, "redStainedClayFullSlab", "hardened_clay_stained_red");
+	public static Block redStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "redStainedClayFullSlab", "hardened_clay_stained_red");
 
 	public static Block blackStainedClayHalfSlab = new BasicSlab(false, CreativeTabs.tabBlock, "blackStainedClayHalfSlab", "hardened_clay_stained_black");
-	public static Block blackStainedClayDoubleSlab = new BasicSlab(true, null, "blackStainedClayFullSlab", "hardened_clay_stained_black");
+	public static Block blackStainedClayDoubleSlab = new BasicSlab(true, VanillaExpansion.vanillaExpansionTab, "blackStainedClayFullSlab", "hardened_clay_stained_black");
 
 	public static Block sandStairs = new BasicStairs(Blocks.sand, 0, "sandStairs");
 	public static Block redSandStairs = new BasicStairs(Blocks.sand, 1, "redSandStairs");

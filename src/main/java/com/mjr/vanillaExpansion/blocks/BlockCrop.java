@@ -3,6 +3,8 @@ package com.mjr.vanillaExpansion.blocks;
 import java.util.ArrayList;
 import java.util.Random;
 
+import com.mjr.vanillaExpansion.Constants;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
@@ -33,7 +35,7 @@ public class BlockCrop extends BlockBush implements IGrowable
         this.setHardness(0.0F);
         this.setStepSound(soundTypeGrass);
         this.disableStats();
-        this.setBlockTextureName(name);
+        this.setBlockTextureName(Constants.TEXTURE_PREFIX + name);
         this.setBlockName(name);
     }
 

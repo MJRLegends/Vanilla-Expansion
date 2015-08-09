@@ -15,6 +15,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenerator;
 
 import com.mjr.vanillaExpansion.Constants;
+import com.mjr.vanillaExpansion.VanillaExpansion;
 import com.mjr.vanillaExpansion.worldgen.WorldGenTreesBanana;
 
 import cpw.mods.fml.relauncher.Side;
@@ -37,7 +38,7 @@ public class SaplingBlock extends BlockFlower {
 		this.setHardness(0.0F);
 		float f = 0.4F;
 		this.setBlockBounds(0.5F - f, 0.0F, 0.5F - f, 0.5F + f, f * 2.0F, 0.5F + f);
-		//this.setCreativeTab(AdditionalFood.BlocksTab);
+		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		this.setBlockName(name);
 		this.name = name;
 		typesSapling = new String[] { Constants.TEXTURE_PREFIX + name };

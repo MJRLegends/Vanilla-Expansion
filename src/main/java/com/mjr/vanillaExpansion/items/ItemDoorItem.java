@@ -9,6 +9,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 
 import com.mjr.vanillaExpansion.Constants;
+import com.mjr.vanillaExpansion.VanillaExpansion;
 import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class ItemDoorItem extends Item {
@@ -20,6 +21,7 @@ public class ItemDoorItem extends Item {
 		this.setMaxDamage(0);
 		this.maxStackSize = 16;
 		this.setCreativeTab(CreativeTabs.tabRedstone);
+		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		super.setUnlocalizedName(type + "Door");
 		if (type.equalsIgnoreCase("gold") || type.equalsIgnoreCase("diamond"))
 			super.setTextureName(Constants.TEXTURE_PREFIX + type + "Door");

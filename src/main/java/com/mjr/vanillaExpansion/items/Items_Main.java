@@ -1,5 +1,7 @@
 package com.mjr.vanillaExpansion.items;
 
+import com.mjr.vanillaExpansion.Constants;
+
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSoup;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -43,7 +45,7 @@ public class Items_Main {
 	public static Item mixingbowl = new BasicItemTool("mixingbowl", 32);
 	public static Item rollingPin = new BasicItemTool("rollingPin", 32);
 
-	public static Item strawberryIceCream = new ItemSoup(2).setUnlocalizedName("strawberryIceCream").setTextureName("strawberryIceCream");
+	public static Item strawberryIceCream = new ItemSoup(2).setUnlocalizedName("strawberryIceCream").setTextureName(Constants.TEXTURE_PREFIX + "strawberryIceCream");
 
 	public static void init() {
 		registerItems();

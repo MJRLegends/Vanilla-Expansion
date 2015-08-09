@@ -17,6 +17,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
 
 import com.mjr.vanillaExpansion.Constants;
+import com.mjr.vanillaExpansion.VanillaExpansion;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -30,7 +31,7 @@ public class LogBlock extends BlockRotatedPillar {
 		this.setHardness(1.5F);
 		this.setHarvestLevel("axe", 0);
 		this.setStepSound(Block.soundTypeWood);
-		//this.setCreativeTab(AdditionalFood.BlocksTab);
+		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		this.setBlockName(name);
 		this.name = name;
 	}
