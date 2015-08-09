@@ -38,6 +38,7 @@ public class TreeWorldGenerator implements IWorldGenerator {
 			BiomeGenBase b = world.getBiomeGenForCoords(chunkX, chunkZ);
 			if(b == BiomeGenBase.river
 					|| b == BiomeGenBase.forest
+					|| b == BiomeGenBase.plains
 					|| b == BiomeGenBase.forestHills
 					|| b == BiomeGenBase.extremeHills
 					|| b == BiomeGenBase.extremeHillsEdge
@@ -54,6 +55,7 @@ public class TreeWorldGenerator implements IWorldGenerator {
 			BiomeGenBase b = world.getBiomeGenForCoords(chunkX, chunkZ);
 			if(b == BiomeGenBase.river
 					|| b == BiomeGenBase.forest
+					|| b == BiomeGenBase.plains
 					|| b == BiomeGenBase.forestHills
 					|| b == BiomeGenBase.extremeHills
 					|| b == BiomeGenBase.extremeHillsEdge
@@ -70,6 +72,7 @@ public class TreeWorldGenerator implements IWorldGenerator {
 			BiomeGenBase b = world.getBiomeGenForCoords(chunkX, chunkZ);
 			if(b == BiomeGenBase.river
 					|| b == BiomeGenBase.forest
+					|| b == BiomeGenBase.plains
 					|| b == BiomeGenBase.forestHills
 					|| b == BiomeGenBase.extremeHills
 					|| b == BiomeGenBase.extremeHillsEdge
@@ -86,6 +89,7 @@ public class TreeWorldGenerator implements IWorldGenerator {
 			BiomeGenBase b = world.getBiomeGenForCoords(chunkX, chunkZ);
 			if(b == BiomeGenBase.river
 					|| b == BiomeGenBase.forest
+					|| b == BiomeGenBase.plains
 					|| b == BiomeGenBase.forestHills
 					|| b == BiomeGenBase.extremeHills
 					|| b == BiomeGenBase.extremeHillsEdge
