@@ -5,7 +5,7 @@ import net.minecraft.item.ItemFood;
 import com.mjr.vanillaExpansion.Constants;
 import com.mjr.vanillaExpansion.VanillaExpansion;
 
-public class BasicFoodItem extends ItemFood{
+public class BasicFoodItem extends ItemFood {
 
 	public BasicFoodItem(int i, int j, boolean b, String name) {
 		super(j, b);

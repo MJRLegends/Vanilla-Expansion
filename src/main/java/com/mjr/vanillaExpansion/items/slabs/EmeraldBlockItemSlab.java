@@ -9,10 +9,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class EmeraldBlockItemSlab extends ItemSlab {
 	public EmeraldBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.emeraldBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.emeraldBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.emeraldBlockHalfSlab)), ((BlockSlab) (Blocks_Main.emeraldBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "emerald_block");
 	}
 }

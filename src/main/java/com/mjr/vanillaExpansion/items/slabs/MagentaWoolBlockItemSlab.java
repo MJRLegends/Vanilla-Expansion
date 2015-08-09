@@ -10,10 +10,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 public class MagentaWoolBlockItemSlab extends ItemSlab {
 
 	public MagentaWoolBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.magentaWoolBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.magentaWoolBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.magentaWoolBlockHalfSlab)), ((BlockSlab) (Blocks_Main.magentaWoolBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "wool_colored_magenta");
 	}
 

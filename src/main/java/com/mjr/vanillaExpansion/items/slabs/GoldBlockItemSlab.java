@@ -9,10 +9,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class GoldBlockItemSlab extends ItemSlab {
 	public GoldBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.goldBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.goldBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.goldBlockHalfSlab)), ((BlockSlab) (Blocks_Main.goldBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "gold_block");
 	}
 }

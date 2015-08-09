@@ -9,7 +9,7 @@ public class BoneMealEvent {
 	public void usedBonemeal(BonemealEvent event) {
 		if (event.block == Blocks_Main.bananaSapling) {
 			if (!event.world.isRemote) {
-				((SaplingBlock)Blocks_Main.bananaSapling).markOrGrowMarked(event.world, event.x, event.y, event.z, event.world.rand);
+				((SaplingBlock) Blocks_Main.bananaSapling).markOrGrowMarked(event.world, event.x, event.y, event.z, event.world.rand);
 				event.setResult(Result.ALLOW);
 			}
 		}

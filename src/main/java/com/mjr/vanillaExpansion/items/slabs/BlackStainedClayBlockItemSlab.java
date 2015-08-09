@@ -10,10 +10,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 public class BlackStainedClayBlockItemSlab extends ItemSlab {
 
 	public BlackStainedClayBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.blackStainedClayHalfSlab)),
-				((BlockSlab) (Blocks_Main.blackStainedClayDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.blackStainedClayHalfSlab)), ((BlockSlab) (Blocks_Main.blackStainedClayDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "hardened_clay_stained_" + "black");
 	}
 }

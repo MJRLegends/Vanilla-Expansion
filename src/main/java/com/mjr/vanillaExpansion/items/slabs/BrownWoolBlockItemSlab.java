@@ -10,10 +10,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 public class BrownWoolBlockItemSlab extends ItemSlab {
 
 	public BrownWoolBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.brownWoolBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.brownWoolBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.brownWoolBlockHalfSlab)), ((BlockSlab) (Blocks_Main.brownWoolBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "wool_colored_brown");
 	}
 

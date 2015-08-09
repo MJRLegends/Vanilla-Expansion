@@ -12,7 +12,8 @@ public class RedWoolBlockItemSlab extends ItemSlab {
 	public RedWoolBlockItemSlab(Block block) {
 		super(block, ((BlockSlab) (Blocks_Main.redWoolBlockHalfSlab)), ((BlockSlab) (Blocks_Main.redWoolBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "wool_colored_red");
 	}
 

@@ -12,7 +12,8 @@ public class RedstoneBlockItemSlab extends ItemSlab {
 	public RedstoneBlockItemSlab(Block block) {
 		super(block, ((BlockSlab) (Blocks_Main.redstoneBlockHalfSlab)), ((BlockSlab) (Blocks_Main.redstoneBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "redstone_block");
 	}
 }

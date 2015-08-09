@@ -46,7 +46,8 @@ public class Items_Main {
 	public static Item mixingbowl = new BasicItemTool("mixingbowl", 32);
 	public static Item rollingPin = new BasicItemTool("rollingPin", 32);
 
-	public static Item strawberryIceCream = new ItemSoup(2).setUnlocalizedName("strawberryIceCream").setTextureName(Constants.TEXTURE_PREFIX + "strawberryIceCream");
+	public static Item strawberryIceCream = new ItemSoup(2).setUnlocalizedName("strawberryIceCream").setTextureName(
+			Constants.TEXTURE_PREFIX + "strawberryIceCream");
 
 	public static void init() {
 		registerItems();

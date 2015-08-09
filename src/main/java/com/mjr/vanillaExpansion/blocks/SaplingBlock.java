@@ -25,10 +25,9 @@ public class SaplingBlock extends BlockFlower {
 
 	/****************************************** VARIABLES *********************************************/
 	public String name;
-	
-    
+
 	public final String[] typesSapling;
-	
+
 	private final IIcon[] textures;
 
 	/****************************************** CONSTRUCTOR *********************************************/
@@ -64,13 +63,13 @@ public class SaplingBlock extends BlockFlower {
 		}
 	}
 
-    /**
-     * Determines if the same sapling is present at the given location.
-     */
-    public boolean isSameSapling(World par1World, int par2, int par3, int par4, int par5)
-    {
-        return par1World.getBlock(par2, par3, par4) == this && (par1World.getBlockMetadata(par2, par3, par4) & 3) == par5;
-    }
+	/**
+	 * Determines if the same sapling is present at the given location.
+	 */
+	public boolean isSameSapling(World par1World, int par2, int par3, int par4, int par5) {
+		return par1World.getBlock(par2, par3, par4) == this && (par1World.getBlockMetadata(par2, par3, par4) & 3) == par5;
+	}
+
 	/**
 	 * Determines the damage on the item the block drops. Used in cloth and
 	 * wood.
@@ -93,13 +92,14 @@ public class SaplingBlock extends BlockFlower {
 	/****************************************** METODOS PROPIOS *********************************************/
 	/**
 	 * Mark or Grow marked
+	 * 
 	 * @param world
 	 * @param x
 	 * @param y
 	 * @param z
 	 * @param par1Random
 	 */
-	public void markOrGrowMarked(World world, int x, int y, int z,	Random par1Random) {
+	public void markOrGrowMarked(World world, int x, int y, int z, Random par1Random) {
 		int l = world.getBlockMetadata(x, y, z);
 
 		if ((l & 8) == 0) {
@@ -113,14 +113,15 @@ public class SaplingBlock extends BlockFlower {
 	 * Grow tree function
 	 ***/
 	public void growTree(World world, int x, int y, int z, Random par1Random) {
-		if (!net.minecraftforge.event.terraingen.TerrainGen.saplingGrowTree(world, par1Random, x, y, z)) return;
+		if (!net.minecraftforge.event.terraingen.TerrainGen.saplingGrowTree(world, par1Random, x, y, z))
+			return;
 		int l = world.getBlockMetadata(x, y, z) & 7;
 		Object object = null;
 		int i1 = 0;
 		int j1 = 0;
 		object = new WorldGenTreesBanana(true, (2 + par1Random.nextInt(4)) * 2, 0, 0, false);
 		world.setBlock(x, y, z, Blocks.air, 0, 4);
-		if (!((WorldGenerator) object).generate(world, par1Random, x + i1, y, z	+ j1)) {
+		if (!((WorldGenerator) object).generate(world, par1Random, x + i1, y, z + j1)) {
 			world.setBlock(x, y, z, this, l, 4);
 		}
 	}

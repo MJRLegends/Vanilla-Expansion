@@ -32,13 +32,13 @@ public class VanillaExpansion {
 
 	@Instance(Constants.modID)
 	public static VanillaExpansion instance;
-	
+
 	public static CreativeTabs vanillaExpansionTab = new CreativeTabs("vanillaExpansionTab") {
 		@Override
 		public Item getTabIconItem() {
-		    return Item.getItemFromBlock(Blocks_Main.purpleStainedClayHalfSlab);
+			return Item.getItemFromBlock(Blocks_Main.purpleStainedClayHalfSlab);
 		}
-	    };
+	};
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

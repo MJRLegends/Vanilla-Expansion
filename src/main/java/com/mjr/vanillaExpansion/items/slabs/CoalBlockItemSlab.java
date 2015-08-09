@@ -10,10 +10,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 public class CoalBlockItemSlab extends ItemSlab {
 
 	public CoalBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.coalBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.coalBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.coalBlockHalfSlab)), ((BlockSlab) (Blocks_Main.coalBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "coal_block");
 	}
 

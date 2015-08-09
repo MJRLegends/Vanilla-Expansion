@@ -10,10 +10,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 public class DirtBlockItemSlab extends ItemSlab {
 
 	public DirtBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.dirtBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.dirtBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.dirtBlockHalfSlab)), ((BlockSlab) (Blocks_Main.dirtBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "dirt");
 	}
 

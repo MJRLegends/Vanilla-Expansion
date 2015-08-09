@@ -9,10 +9,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class DiamondBlockItemSlab extends ItemSlab {
 	public DiamondBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.diamondBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.diamondBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.diamondBlockHalfSlab)), ((BlockSlab) (Blocks_Main.diamondBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "diamond_block");
 	}
 

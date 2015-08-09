@@ -15,7 +15,7 @@ public class BlocksFoodCrops {
 
 	public static Block blockGrape;
 	public static Item grapeSeed;
-	
+
 	public static Block blockLettuce;
 	public static Item lettuceSeed;
 
@@ -25,19 +25,20 @@ public class BlocksFoodCrops {
 
 		blockGrape = new GrapeCrop();
 		grapeSeed = new BasicSeed("grapeSeed", blockGrape, Blocks.farmland);
-		
+
 		blockLettuce = new LettuceCrop();
 		lettuceSeed = new BasicSeed("lettuceSeed", blockLettuce, Blocks.farmland);
 
 	}
+
 	public static void registerCrops() {
-		GameRegistry.registerItem(strawberrySeed, "strawberrySeed");	
+		GameRegistry.registerItem(strawberrySeed, "strawberrySeed");
 		GameRegistry.registerBlock(blockStrawberry, "blockStrawberry");
-		
-		GameRegistry.registerItem(grapeSeed, "grapeSeed");	
+
+		GameRegistry.registerItem(grapeSeed, "grapeSeed");
 		GameRegistry.registerBlock(blockGrape, "blockGrape");
-		
-		GameRegistry.registerItem(lettuceSeed, "lettuceSeed");	
+
+		GameRegistry.registerItem(lettuceSeed, "lettuceSeed");
 		GameRegistry.registerBlock(blockLettuce, "blockLettuce");
 	}
 }

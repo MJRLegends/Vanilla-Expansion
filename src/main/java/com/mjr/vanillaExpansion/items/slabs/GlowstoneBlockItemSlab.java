@@ -9,10 +9,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class GlowstoneBlockItemSlab extends ItemSlab {
 	public GlowstoneBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.glowstoneBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.glowstoneBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.glowstoneBlockHalfSlab)), ((BlockSlab) (Blocks_Main.glowstoneBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "glowstone");
 	}
 }

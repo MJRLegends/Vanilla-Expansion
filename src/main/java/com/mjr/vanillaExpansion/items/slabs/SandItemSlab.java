@@ -10,10 +10,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 public class SandItemSlab extends ItemSlab {
 
 	public SandItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.sandHalfSlab)),
-				((BlockSlab) (Blocks_Main.sandDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.sandHalfSlab)), ((BlockSlab) (Blocks_Main.sandDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "sand");
 	}
 

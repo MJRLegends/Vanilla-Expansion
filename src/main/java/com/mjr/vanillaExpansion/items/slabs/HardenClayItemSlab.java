@@ -10,10 +10,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 public class HardenClayItemSlab extends ItemSlab {
 
 	public HardenClayItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.hardenClayHalfSlab)),
-				((BlockSlab) (Blocks_Main.hardenClayDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.hardenClayHalfSlab)), ((BlockSlab) (Blocks_Main.hardenClayDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "hardenClay");
 	}
 }

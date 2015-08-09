@@ -9,10 +9,10 @@ import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class IceBlockItemSlab extends ItemSlab {
 	public IceBlockItemSlab(Block block) {
-		super(block, ((BlockSlab) (Blocks_Main.iceBlockHalfSlab)),
-				((BlockSlab) (Blocks_Main.iceBlockDoubleSlab)), false);
+		super(block, ((BlockSlab) (Blocks_Main.iceBlockHalfSlab)), ((BlockSlab) (Blocks_Main.iceBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
+		this.setHasSubtypes(true);
+
 		setUnlocalizedName("minecraft:" + "ice");
 	}
 }

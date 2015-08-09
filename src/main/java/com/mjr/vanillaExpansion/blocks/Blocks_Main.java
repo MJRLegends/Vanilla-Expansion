@@ -5,6 +5,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 
 import com.mjr.vanillaExpansion.Constants;
+import com.mjr.vanillaExpansion.VanillaExpansion;
 import com.mjr.vanillaExpansion.items.Items_Main;
 import com.mjr.vanillaExpansion.items.slabs.BlackStainedClayBlockItemSlab;
 import com.mjr.vanillaExpansion.items.slabs.BlackWoolBlockItemSlab;
@@ -316,148 +317,148 @@ public class Blocks_Main {
 	}
 
 	private static void registerSlabsAndStairs() {
-		GameRegistry.registerBlock(sandHalfSlab, SandItemSlab.class, "sandHalfSlab");
+		GameRegistry.registerBlock(sandHalfSlab, SandItemSlab.class, "sandHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(sandDoubleSlab, SandItemSlab.class, "sandFullSlab");
 
-		GameRegistry.registerBlock(redSandHalfSlab, RedSandItemSlab.class, "redSandHalfSlab");
+		GameRegistry.registerBlock(redSandHalfSlab, RedSandItemSlab.class, "redSandHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(redSandDoubleSlab, RedSandItemSlab.class, "redSandFullSlab");
 
-		GameRegistry.registerBlock(goldBlockHalfSlab, GoldBlockItemSlab.class, "goldBlockHalfSlab");
+		GameRegistry.registerBlock(goldBlockHalfSlab, GoldBlockItemSlab.class, "goldBlockHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(goldBlockDoubleSlab, GoldBlockItemSlab.class, "goldBlockFullSlab");
 
-		GameRegistry.registerBlock(diamondBlockHalfSlab, DiamondBlockItemSlab.class, "diamondHalfSlab");
+		GameRegistry.registerBlock(diamondBlockHalfSlab, DiamondBlockItemSlab.class, "diamondHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(diamondBlockDoubleSlab, DiamondBlockItemSlab.class, "diamondFullSlab");
 
-		GameRegistry.registerBlock(ironBlockHalfSlab, IronBlockItemSlab.class, "ironHalfSlab");
+		GameRegistry.registerBlock(ironBlockHalfSlab, IronBlockItemSlab.class, "ironHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(ironBlockDoubleSlab, IronBlockItemSlab.class, "ironFullSlab");
 
-		GameRegistry.registerBlock(coalBlockHalfSlab, CoalBlockItemSlab.class, "coalHalfSlab");
+		GameRegistry.registerBlock(coalBlockHalfSlab, CoalBlockItemSlab.class, "coalHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(coalBlockDoubleSlab, CoalBlockItemSlab.class, "coalFullSlab");
 
-		GameRegistry.registerBlock(lapisBlockHalfSlab, LapisBlockItemSlab.class, "lapisHalfSlab");
+		GameRegistry.registerBlock(lapisBlockHalfSlab, LapisBlockItemSlab.class, "lapisHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(lapisBlockDoubleSlab, LapisBlockItemSlab.class, "lapisFullSlab");
 
-		GameRegistry.registerBlock(emeraldBlockHalfSlab, EmeraldBlockItemSlab.class, "emeraldHalfSlab");
+		GameRegistry.registerBlock(emeraldBlockHalfSlab, EmeraldBlockItemSlab.class, "emeraldHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(emeraldBlockDoubleSlab, EmeraldBlockItemSlab.class, "emeraldFullSlab");
 
-		GameRegistry.registerBlock(netherrackBlockHalfSlab, NetherrackBlockItemSlab.class, "netherrackHalfSlab");
+		GameRegistry.registerBlock(netherrackBlockHalfSlab, NetherrackBlockItemSlab.class, "netherrackHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(netherrackBlockDoubleSlab, NetherrackBlockItemSlab.class, "netherrackFullSlab");
 
-		GameRegistry.registerBlock(redstoneBlockHalfSlab, RedstoneBlockItemSlab.class, "redstoneHalfSlab");
+		GameRegistry.registerBlock(redstoneBlockHalfSlab, RedstoneBlockItemSlab.class, "redstoneHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(redstoneBlockDoubleSlab, RedstoneBlockItemSlab.class, "redstoneFullSlab");
 
-		GameRegistry.registerBlock(glowstoneBlockHalfSlab, GlowstoneBlockItemSlab.class, "glowstoneBlockHalfSlab");
+		GameRegistry.registerBlock(glowstoneBlockHalfSlab, GlowstoneBlockItemSlab.class, "glowstoneBlockHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(glowstoneBlockDoubleSlab, GlowstoneBlockItemSlab.class, "glowstoneFullSlab");
 
-		GameRegistry.registerBlock(packedIceBlockHalfSlab, PackedIcestoneBlockItemSlab.class, "packedIceHalfSlab");
+		GameRegistry.registerBlock(packedIceBlockHalfSlab, PackedIcestoneBlockItemSlab.class, "packedIceHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(packedIceBlockDoubleSlab, PackedIcestoneBlockItemSlab.class, "packedIceFullSlab");
 
-		GameRegistry.registerBlock(iceBlockHalfSlab, IceBlockItemSlab.class, "iceHalfSlab");
+		GameRegistry.registerBlock(iceBlockHalfSlab, IceBlockItemSlab.class, "iceHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(iceBlockDoubleSlab, IceBlockItemSlab.class, "iceFullSlab");
 
-		GameRegistry.registerBlock(whiteWoolBlockHalfSlab, WhiteWoolBlockItemSlab.class, "whiteWoolHalfSlab");
+		GameRegistry.registerBlock(whiteWoolBlockHalfSlab, WhiteWoolBlockItemSlab.class, "whiteWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(whiteWoolBlockDoubleSlab, WhiteWoolBlockItemSlab.class, "whiteWoolFullSlab");
 
-		GameRegistry.registerBlock(orangeWoolBlockHalfSlab, OrangeWoolBlockItemSlab.class, "orangeWoolHalfSlab");
+		GameRegistry.registerBlock(orangeWoolBlockHalfSlab, OrangeWoolBlockItemSlab.class, "orangeWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(orangeWoolBlockDoubleSlab, OrangeWoolBlockItemSlab.class, "orangeWoolFullSlab");
 
-		GameRegistry.registerBlock(magentaWoolBlockHalfSlab, MagentaWoolBlockItemSlab.class, "magentaWoolHalfSlab");
+		GameRegistry.registerBlock(magentaWoolBlockHalfSlab, MagentaWoolBlockItemSlab.class, "magentaWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(magentaWoolBlockDoubleSlab, MagentaWoolBlockItemSlab.class, "magentaWoolFullSlab");
 
-		GameRegistry.registerBlock(lightBlueWoolBlockHalfSlab, LightBlueWoolBlockItemSlab.class, "lightBlueWoolHalfSlab");
+		GameRegistry.registerBlock(lightBlueWoolBlockHalfSlab, LightBlueWoolBlockItemSlab.class, "lightBlueWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(lightBlueWoolBlockDoubleSlab, LightBlueWoolBlockItemSlab.class, "lightBlueWoolFullSlab");
 
-		GameRegistry.registerBlock(yellowWoolBlockHalfSlab, YellowWoolBlockItemSlab.class, "yellowWoolHalfSlab");
+		GameRegistry.registerBlock(yellowWoolBlockHalfSlab, YellowWoolBlockItemSlab.class, "yellowWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(yellowWoolBlockDoubleSlab, YellowWoolBlockItemSlab.class, "yellowWoolFullSlab");
 
-		GameRegistry.registerBlock(limeWoolBlockHalfSlab, LimeWoolBlockItemSlab.class, "limeWoolHalfSlab");
+		GameRegistry.registerBlock(limeWoolBlockHalfSlab, LimeWoolBlockItemSlab.class, "limeWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(limeWoolBlockDoubleSlab, LimeWoolBlockItemSlab.class, "limeWoolFullSlab");
 
-		GameRegistry.registerBlock(pinkWoolBlockHalfSlab, PinkWoolBlockItemSlab.class, "pinkWoolHalfSlab");
+		GameRegistry.registerBlock(pinkWoolBlockHalfSlab, PinkWoolBlockItemSlab.class, "pinkWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(pinkWoolBlockDoubleSlab, PinkWoolBlockItemSlab.class, "pinkWoolFullSlab");
 
-		GameRegistry.registerBlock(grayWoolBlockHalfSlab, GrayWoolBlockItemSlab.class, "grayWoolHalfSlab");
+		GameRegistry.registerBlock(grayWoolBlockHalfSlab, GrayWoolBlockItemSlab.class, "grayWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(grayWoolBlockDoubleSlab, GrayWoolBlockItemSlab.class, "grayWoolFullSlab");
 
-		GameRegistry.registerBlock(lightGrayWoolBlockHalfSlab, LightGrayWoolBlockItemSlab.class, "lightGrayWoolHalfSlab");
+		GameRegistry.registerBlock(lightGrayWoolBlockHalfSlab, LightGrayWoolBlockItemSlab.class, "lightGrayWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(lightGrayWoolBlockDoubleSlab, LightGrayWoolBlockItemSlab.class, "lightGrayWoolFullSlab");
 
-		GameRegistry.registerBlock(cyanWoolBlockHalfSlab, CyanWoolBlockItemSlab.class, "cyanWoolHalfSlab");
+		GameRegistry.registerBlock(cyanWoolBlockHalfSlab, CyanWoolBlockItemSlab.class, "cyanWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(cyanWoolBlockDoubleSlab, CyanWoolBlockItemSlab.class, "cyanWoolFullSlab");
 
-		GameRegistry.registerBlock(purpleWoolBlockHalfSlab, PurpleWoolBlockItemSlab.class, "purpleWoolHalfSlab");
+		GameRegistry.registerBlock(purpleWoolBlockHalfSlab, PurpleWoolBlockItemSlab.class, "purpleWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(purpleWoolBlockDoubleSlab, PurpleWoolBlockItemSlab.class, "purpleWoolFullSlab");
 
-		GameRegistry.registerBlock(blueWoolBlockHalfSlab, BlueWoolBlockItemSlab.class, "blueWoolHalfSlab");
+		GameRegistry.registerBlock(blueWoolBlockHalfSlab, BlueWoolBlockItemSlab.class, "blueWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(blueWoolBlockDoubleSlab, BlueWoolBlockItemSlab.class, "blueWoolFullSlab");
 
-		GameRegistry.registerBlock(brownWoolBlockHalfSlab, BrownWoolBlockItemSlab.class, "brownWoolHalfSlab");
+		GameRegistry.registerBlock(brownWoolBlockHalfSlab, BrownWoolBlockItemSlab.class, "brownWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(brownWoolBlockDoubleSlab, BrownWoolBlockItemSlab.class, "brownWoolFullSlab");
 
-		GameRegistry.registerBlock(greenWoolBlockHalfSlab, GreenWoolBlockItemSlab.class, "greenWoolHalfSlab");
+		GameRegistry.registerBlock(greenWoolBlockHalfSlab, GreenWoolBlockItemSlab.class, "greenWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(greenWoolBlockDoubleSlab, GreenWoolBlockItemSlab.class, "greenWoolFullSlab");
 
-		GameRegistry.registerBlock(redWoolBlockHalfSlab, RedWoolBlockItemSlab.class, "redWoolHalfSlab");
+		GameRegistry.registerBlock(redWoolBlockHalfSlab, RedWoolBlockItemSlab.class, "redWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(redWoolBlockDoubleSlab, RedWoolBlockItemSlab.class, "redWoolFullSlab");
 
-		GameRegistry.registerBlock(blackWoolBlockHalfSlab, BlackWoolBlockItemSlab.class, "blackWoolHalfSlab");
+		GameRegistry.registerBlock(blackWoolBlockHalfSlab, BlackWoolBlockItemSlab.class, "blackWoolHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(blackWoolBlockDoubleSlab, BlackWoolBlockItemSlab.class, "blackWoolFullSlab");
 
-		GameRegistry.registerBlock(dirtBlockHalfSlab, DirtBlockItemSlab.class, "dirtHalfSlab");
+		GameRegistry.registerBlock(dirtBlockHalfSlab, DirtBlockItemSlab.class, "dirtHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(dirtBlockDoubleSlab, DirtBlockItemSlab.class, "dirtFullSlab");
 
-		GameRegistry.registerBlock(clayHalfSlab, ClayItemSlab.class, "clayHalfSlab");
+		GameRegistry.registerBlock(clayHalfSlab, ClayItemSlab.class, "clayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(clayDoubleSlab, ClayItemSlab.class, "clayDoubleSlab");
 
-		GameRegistry.registerBlock(hardenClayHalfSlab, HardenClayItemSlab.class, "hardenClayHalfSlab");
+		GameRegistry.registerBlock(hardenClayHalfSlab, HardenClayItemSlab.class, "hardenClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(hardenClayDoubleSlab, HardenClayItemSlab.class, "hardenClayDoubleSlab");
 
-		GameRegistry.registerBlock(whiteStainedClayHalfSlab, WhiteStainedClayBlockItemSlab.class, "whiteStainedClayHalfSlab");
+		GameRegistry.registerBlock(whiteStainedClayHalfSlab, WhiteStainedClayBlockItemSlab.class, "whiteStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(whiteStainedClayDoubleSlab, WhiteStainedClayBlockItemSlab.class, "whiteStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(orangeStainedClayHalfSlab, OrangeStainedClayBlockItemSlab.class, "orangeStainedClayHalfSlab");
+		GameRegistry.registerBlock(orangeStainedClayHalfSlab, OrangeStainedClayBlockItemSlab.class, "orangeStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(orangeStainedClayDoubleSlab, OrangeStainedClayBlockItemSlab.class, "orangeStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(magentaStainedClayHalfSlab, MagentaStainedClayBlockItemSlab.class, "magentaStainedClayHalfSlab");
+		GameRegistry.registerBlock(magentaStainedClayHalfSlab, MagentaStainedClayBlockItemSlab.class, "magentaStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(magentaStainedClayDoubleSlab, MagentaStainedClayBlockItemSlab.class, "magentaStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(lightBlueStainedClayHalfSlab, LightBlueStainedClayBlockItemSlab.class, "lightBlueStainedClayHalfSlab");
+		GameRegistry.registerBlock(lightBlueStainedClayHalfSlab, LightBlueStainedClayBlockItemSlab.class, "lightBlueStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(lightBlueStainedClayDoubleSlab, LightBlueStainedClayBlockItemSlab.class, "lightBlueStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(yellowStainedClayHalfSlab, YellowStainedClayBlockItemSlab.class, "yellowStainedClayHalfSlab");
+		GameRegistry.registerBlock(yellowStainedClayHalfSlab, YellowStainedClayBlockItemSlab.class, "yellowStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(yellowStainedClayDoubleSlab, YellowStainedClayBlockItemSlab.class, "yellowStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(limeStainedClayHalfSlab, LimeStainedClayBlockItemSlab.class, "limeStainedClayHalfSlab");
+		GameRegistry.registerBlock(limeStainedClayHalfSlab, LimeStainedClayBlockItemSlab.class, "limeStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(limeStainedClayDoubleSlab, PinkStainedClayBlockItemSlab.class, "limeStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(pinkStainedClayHalfSlab, PinkStainedClayBlockItemSlab.class, "pinkStainedClayHalfSlab");
+		GameRegistry.registerBlock(pinkStainedClayHalfSlab, PinkStainedClayBlockItemSlab.class, "pinkStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(pinkStainedClayDoubleSlab, PinkStainedClayBlockItemSlab.class, "pinkStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(grayStainedClayHalfSlab, GrayStainedClayBlockItemSlab.class, "grayStainedClayHalfSlab");
+		GameRegistry.registerBlock(grayStainedClayHalfSlab, GrayStainedClayBlockItemSlab.class, "grayStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(grayStainedClayDoubleSlab, GrayStainedClayBlockItemSlab.class, "grayStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(lightGrayStainedClayHalfSlab, LightGrayStainedClayBlockItemSlab.class, "lightGrayStainedClayHalfSlab");
+		GameRegistry.registerBlock(lightGrayStainedClayHalfSlab, LightGrayStainedClayBlockItemSlab.class, "lightGrayStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(lightGrayStainedClayDoubleSlab, LightGrayStainedClayBlockItemSlab.class, "lightGrayStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(cyanStainedClayHalfSlab, CyanStainedClayBlockItemSlab.class, "cyanStainedClayHalfSlab");
+		GameRegistry.registerBlock(cyanStainedClayHalfSlab, CyanStainedClayBlockItemSlab.class, "cyanStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(cyanStainedClayDoubleSlab, CyanStainedClayBlockItemSlab.class, "cyanStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(purpleStainedClayHalfSlab, PurpleStainedClayBlockItemSlab.class, "purpleStainedClayHalfSlab");
+		GameRegistry.registerBlock(purpleStainedClayHalfSlab, PurpleStainedClayBlockItemSlab.class, "purpleStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(purpleStainedClayDoubleSlab, PurpleStainedClayBlockItemSlab.class, "purpleStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(blueStainedClayHalfSlab, BlueStainedClayBlockItemSlab.class, "blueStainedClayHalfSlab");
+		GameRegistry.registerBlock(blueStainedClayHalfSlab, BlueStainedClayBlockItemSlab.class, "blueStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(blueStainedClayDoubleSlab, BlueStainedClayBlockItemSlab.class, "blueStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(brownStainedClayHalfSlab, BrownStainedClayBlockItemSlab.class, "brownStainedClayHalfSlab");
+		GameRegistry.registerBlock(brownStainedClayHalfSlab, BrownStainedClayBlockItemSlab.class, "brownStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(brownStainedClayDoubleSlab, BrownStainedClayBlockItemSlab.class, "brownStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(greenStainedClayHalfSlab, GreenStainedClayBlockItemSlab.class, "greenStainedClayHalfSlab");
+		GameRegistry.registerBlock(greenStainedClayHalfSlab, GreenStainedClayBlockItemSlab.class, "greenStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(greenStainedClayDoubleSlab, GreenStainedClayBlockItemSlab.class, "greenStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(redStainedClayHalfSlab, RedStainedClayBlockItemSlab.class, "redStainedClayHalfSlab");
+		GameRegistry.registerBlock(redStainedClayHalfSlab, RedStainedClayBlockItemSlab.class, "redStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(redStainedClayDoubleSlab, RedStainedClayBlockItemSlab.class, "redStainedClayDoubleSlab");
 
-		GameRegistry.registerBlock(blackStainedClayHalfSlab, BlackStainedClayBlockItemSlab.class, "blackStainedClayHalfSlab");
+		GameRegistry.registerBlock(blackStainedClayHalfSlab, BlackStainedClayBlockItemSlab.class, "blackStainedClayHalfSlab").setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		GameRegistry.registerBlock(blackStainedClayDoubleSlab, BlackStainedClayBlockItemSlab.class, "blackStainedClayDoubleSlab");
 
 		GameRegistry.registerBlock(sandStairs, "sandStairs");

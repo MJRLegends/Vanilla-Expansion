@@ -6,7 +6,7 @@ import net.minecraft.item.ItemStack;
 import com.mjr.vanillaExpansion.Constants;
 import com.mjr.vanillaExpansion.VanillaExpansion;
 
-public class BasicItemTool extends Item{
+public class BasicItemTool extends Item {
 	public BasicItemTool(String name, int maxDamage) {
 		super();
 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
@@ -22,12 +22,12 @@ public class BasicItemTool extends Item{
 		result.stackSize = 1;
 		return result;
 	}
-	
+
 	@Override
 	public boolean doesContainerItemLeaveCraftingGrid(ItemStack p_77630_1_) {
 		return false;
 	}
-	
+
 	@Override
 	public boolean hasContainerItem() {
 		return true;
