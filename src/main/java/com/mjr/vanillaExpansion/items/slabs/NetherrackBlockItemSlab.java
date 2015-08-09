@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.item.ItemSlab;
 
+import com.mjr.vanillaExpansion.VanillaExpansion;
 import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class NetherrackBlockItemSlab extends ItemSlab {
@@ -11,7 +12,7 @@ public class NetherrackBlockItemSlab extends ItemSlab {
 		super(block, ((BlockSlab) (Blocks_Main.netherrackBlockHalfSlab)),
 				((BlockSlab) (Blocks_Main.netherrackBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true);
+		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		setUnlocalizedName("minecraft:" + "netherrack");
 	}
 

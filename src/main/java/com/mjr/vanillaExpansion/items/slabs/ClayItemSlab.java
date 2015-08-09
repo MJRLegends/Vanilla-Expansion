@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.item.ItemSlab;
 
+import com.mjr.vanillaExpansion.VanillaExpansion;
 import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class ClayItemSlab extends ItemSlab {
@@ -12,7 +13,7 @@ public class ClayItemSlab extends ItemSlab {
 		super(block, ((BlockSlab) (Blocks_Main.clayHalfSlab)),
 				((BlockSlab) (Blocks_Main.clayDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true);
+		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		setUnlocalizedName("minecraft:" + "clay");
 	}
 }

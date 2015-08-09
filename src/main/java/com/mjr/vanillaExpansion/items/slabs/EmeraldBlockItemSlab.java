@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.item.ItemSlab;
 
+import com.mjr.vanillaExpansion.VanillaExpansion;
 import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 public class EmeraldBlockItemSlab extends ItemSlab {
@@ -11,7 +12,7 @@ public class EmeraldBlockItemSlab extends ItemSlab {
 		super(block, ((BlockSlab) (Blocks_Main.emeraldBlockHalfSlab)),
 				((BlockSlab) (Blocks_Main.emeraldBlockDoubleSlab)), false);
 		this.setMaxDamage(0);
-		this.setHasSubtypes(true);
+		this.setHasSubtypes(true); 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);
 		setUnlocalizedName("minecraft:" + "emerald_block");
 	}
 }

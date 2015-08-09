@@ -1,9 +1,10 @@
 package com.mjr.vanillaExpansion.items;
 
-import com.mjr.vanillaExpansion.Constants;
-
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSoup;
+
+import com.mjr.vanillaExpansion.Constants;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Items_Main {

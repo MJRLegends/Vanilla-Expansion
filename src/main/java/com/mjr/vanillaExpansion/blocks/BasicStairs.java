@@ -1,10 +1,10 @@
 package com.mjr.vanillaExpansion.blocks;
 
-import com.mjr.vanillaExpansion.VanillaExpansion;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.creativetab.CreativeTabs;
+
+import com.mjr.vanillaExpansion.VanillaExpansion;
 
 public class BasicStairs extends BlockStairs {
 	public BasicStairs(Block block, int par3, String name) {

@@ -3,8 +3,6 @@ package com.mjr.vanillaExpansion.blocks;
 import java.util.ArrayList;
 import java.util.Random;
 
-import com.mjr.vanillaExpansion.Constants;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
@@ -17,6 +15,9 @@ import net.minecraft.util.IIcon;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
+
+import com.mjr.vanillaExpansion.Constants;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
