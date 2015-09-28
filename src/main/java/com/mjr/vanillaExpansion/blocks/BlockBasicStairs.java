@@ -6,8 +6,8 @@ import net.minecraft.creativetab.CreativeTabs;
 
 import com.mjr.vanillaExpansion.VanillaExpansion;
 
-public class BasicStairs extends BlockStairs {
-	public BasicStairs(Block block, int par3, String name) {
+public class BlockBasicStairs extends BlockStairs {
+	public BlockBasicStairs(Block block, int par3, String name) {
 		super(block, par3);
 		this.setCreativeTab(CreativeTabs.tabBlock);
 		this.setCreativeTab(VanillaExpansion.vanillaExpansionTab);

@@ -1,4 +1,7 @@
-package com.mjr.vanillaExpansion.blocks;
+package com.mjr.vanillaExpansion;
+
+import com.mjr.vanillaExpansion.blocks.BlockSapling;
+import com.mjr.vanillaExpansion.blocks.Blocks_Main;
 
 import net.minecraftforge.event.entity.player.BonemealEvent;
 import cpw.mods.fml.common.eventhandler.Event.Result;
@@ -9,7 +12,7 @@ public class BoneMealEvent {
 	public void usedBonemeal(BonemealEvent event) {
 		if (event.block == Blocks_Main.bananaSapling) {
 			if (!event.world.isRemote) {
-				((SaplingBlock) Blocks_Main.bananaSapling).markOrGrowMarked(event.world, event.x, event.y, event.z, event.world.rand);
+				((BlockSapling) Blocks_Main.bananaSapling).markOrGrowMarked(event.world, event.x, event.y, event.z, event.world.rand);
 				event.setResult(Result.ALLOW);
 			}
 		}

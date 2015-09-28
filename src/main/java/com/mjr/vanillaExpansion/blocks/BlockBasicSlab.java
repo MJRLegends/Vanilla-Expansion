@@ -11,11 +11,11 @@ import net.minecraft.world.World;
 
 import com.mjr.vanillaExpansion.Constants;
 
-public class BasicSlab extends BlockSlab {
+public class BlockBasicSlab extends BlockSlab {
 	String name;
 	String texturename;
 
-	public BasicSlab(boolean isFullBlock, CreativeTabs tab, String blockName, String texturename) {
+	public BlockBasicSlab(boolean isFullBlock, CreativeTabs tab, String blockName, String texturename) {
 		super(isFullBlock, Material.wood);
 
 		if (tab != null) {

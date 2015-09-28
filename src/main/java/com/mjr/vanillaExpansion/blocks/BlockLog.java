@@ -21,12 +21,12 @@ import com.mjr.vanillaExpansion.VanillaExpansion;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class LogBlock extends BlockRotatedPillar {
+public class BlockLog extends BlockRotatedPillar {
 
 	public String name;
 
 	/********************************************** CONSTRUCTORES **************************************************/
-	public LogBlock(String name) {
+	public BlockLog(String name) {
 		super(Material.wood);
 		this.setHardness(1.5F);
 		this.setHarvestLevel("axe", 0);

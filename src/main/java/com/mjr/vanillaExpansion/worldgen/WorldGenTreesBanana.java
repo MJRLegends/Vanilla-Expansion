@@ -10,7 +10,7 @@ import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraftforge.common.util.ForgeDirection;
 
 import com.mjr.vanillaExpansion.blocks.Blocks_Main;
-import com.mjr.vanillaExpansion.blocks.SaplingBlock;
+import com.mjr.vanillaExpansion.blocks.BlockSapling;
 
 public class WorldGenTreesBanana extends WorldGenAbstractTree {
 	/** The minimum height of a generated tree. */
@@ -90,7 +90,7 @@ public class WorldGenTreesBanana extends WorldGenAbstractTree {
 			} else {
 				Block block2 = par1World.getBlock(par3, par4 - 1, par5);
 
-				boolean isSoil = block2.canSustainPlant(par1World, par3, par4 - 1, par5, ForgeDirection.UP, (SaplingBlock) Blocks_Main.bananaSapling);
+				boolean isSoil = block2.canSustainPlant(par1World, par3, par4 - 1, par5, ForgeDirection.UP, (BlockSapling) Blocks_Main.bananaSapling);
 				if (isSoil && par4 < 256 - l - 1) {
 					block2.onPlantGrow(par1World, par3, par4 - 1, par5, par3, par4, par5);
 					b0 = 3;

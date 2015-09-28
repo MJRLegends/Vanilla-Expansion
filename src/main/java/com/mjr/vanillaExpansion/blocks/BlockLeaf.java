@@ -25,7 +25,7 @@ import com.mjr.vanillaExpansion.VanillaExpansion;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class LeafBlock extends BlockLeavesBase implements IShearable {
+public class BlockLeaf extends BlockLeavesBase implements IShearable {
 
 	/********************************************** VARIABLES DE LA CLASE **************************************************/
 	public String name;
@@ -43,7 +43,7 @@ public class LeafBlock extends BlockLeavesBase implements IShearable {
 	int[] adjacentTreeBlocks;
 
 	/********************************************** CONSTRUCTORES **************************************************/
-	public LeafBlock(String name, String dropName, Item drop, Block Sapling) {
+	public BlockLeaf(String name, String dropName, Item drop, Block Sapling) {
 		super(Material.leaves, false);
 		this.setHardness(0.1F);
 		this.setTickRandomly(true);

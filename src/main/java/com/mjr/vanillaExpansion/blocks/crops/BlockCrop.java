@@ -1,4 +1,4 @@
-package com.mjr.vanillaExpansion.blocks;
+package com.mjr.vanillaExpansion.blocks.crops;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -11,7 +11,6 @@ import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.common.MinecraftForge;
 
 import com.mjr.vanillaExpansion.blocks.Blocks_Main;
-import com.mjr.vanillaExpansion.blocks.BoneMealEvent;
 import com.mjr.vanillaExpansion.blocks.crops.BlocksFoodCrops;
 import com.mjr.vanillaExpansion.items.Items_Main;
 import com.mjr.vanillaExpansion.worldgen.TreeWorldGenerator;

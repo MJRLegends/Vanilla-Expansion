@@ -8,17 +8,20 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
 
+import com.mjr.vanillaExpansion.Constants;
 import com.mjr.vanillaExpansion.items.Items_Main;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 public class BlockCustomDoor extends BlockDoor {
-	public BlockCustomDoor() {
+	public BlockCustomDoor(String name, String textureName) {
 		super(Material.circuits);
 		super.setHardness(-1f);
 		super.setStepSound(soundTypeMetal);
 		super.disableStats();
+		super.setBlockName(name);
+		super.setBlockTextureName(Constants.TEXTURE_PREFIX + textureName);
 	}
 
 	@Override
@@ -45,21 +48,17 @@ public class BlockCustomDoor extends BlockDoor {
 
 	@Override
 	public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_) {
-		return this.getUnlocalizedName().equalsIgnoreCase("tile.goldDoor") ? Items_Main.goldDoorItem : this.getUnlocalizedName().equalsIgnoreCase(
-				"tile.diamondDoor") ? Items_Main.diamondDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.darkOakDoor") ? Items_Main.darkOakDoorItem
-				: this.getUnlocalizedName().equalsIgnoreCase("tile.spruceDoor") ? Items_Main.spruceDoorItem : this.getUnlocalizedName().equalsIgnoreCase(
-						"tile.jungleDoor") ? Items_Main.jungleDoorItem
-						: this.getUnlocalizedName().equalsIgnoreCase("tile.acaciaDoor") ? Items_Main.acaciaDoorItem : Items_Main.birchDoorItem;
+		return this.getUnlocalizedName().equalsIgnoreCase("tile.goldDoor") ? Items_Main.goldDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.diamondDoor") ? Items_Main.diamondDoorItem : this.getUnlocalizedName().equalsIgnoreCase(
+				"tile.darkOakDoor") ? Items_Main.darkOakDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.spruceDoor") ? Items_Main.spruceDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.jungleDoor") ? Items_Main.jungleDoorItem : this
+				.getUnlocalizedName().equalsIgnoreCase("tile.acaciaDoor") ? Items_Main.acaciaDoorItem : Items_Main.birchDoorItem;
 	}
 
 	@Override
 	@SideOnly(Side.CLIENT)
 	public Item getItem(World p_149694_1_, int p_149694_2_, int p_149694_3_, int p_149694_4_) {
-		return this.getUnlocalizedName().equalsIgnoreCase("tile.goldDoor") ? Items_Main.goldDoorItem : this.getUnlocalizedName().equalsIgnoreCase(
-				"tile.diamondDoor") ? Items_Main.diamondDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.darkOakDoor") ? Items_Main.darkOakDoorItem
-				: this.getUnlocalizedName().equalsIgnoreCase("tile.spruceDoor") ? Items_Main.spruceDoorItem : this.getUnlocalizedName().equalsIgnoreCase(
-						"tile.jungleDoor") ? Items_Main.jungleDoorItem
-						: this.getUnlocalizedName().equalsIgnoreCase("tile.acaciaDoor") ? Items_Main.acaciaDoorItem : Items_Main.birchDoorItem;
+		return this.getUnlocalizedName().equalsIgnoreCase("tile.goldDoor") ? Items_Main.goldDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.diamondDoor") ? Items_Main.diamondDoorItem : this.getUnlocalizedName().equalsIgnoreCase(
+				"tile.darkOakDoor") ? Items_Main.darkOakDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.spruceDoor") ? Items_Main.spruceDoorItem : this.getUnlocalizedName().equalsIgnoreCase("tile.jungleDoor") ? Items_Main.jungleDoorItem : this
+				.getUnlocalizedName().equalsIgnoreCase("tile.acaciaDoor") ? Items_Main.acaciaDoorItem : Items_Main.birchDoorItem;
 	}
 
 	@Override

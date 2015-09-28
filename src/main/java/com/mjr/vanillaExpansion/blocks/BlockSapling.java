@@ -21,7 +21,7 @@ import com.mjr.vanillaExpansion.worldgen.WorldGenTreesBanana;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class SaplingBlock extends BlockFlower {
+public class BlockSapling extends BlockFlower {
 
 	/****************************************** VARIABLES *********************************************/
 	public String name;
@@ -31,7 +31,7 @@ public class SaplingBlock extends BlockFlower {
 	private final IIcon[] textures;
 
 	/****************************************** CONSTRUCTOR *********************************************/
-	public SaplingBlock(String name) {
+	public BlockSapling(String name) {
 		super(0);
 		this.stepSound = soundTypeGrass;
 		this.setHardness(0.0F);

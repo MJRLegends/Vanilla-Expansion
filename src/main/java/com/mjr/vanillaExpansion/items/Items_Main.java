@@ -17,6 +17,23 @@ public class Items_Main {
 	public static Item jungleDoorItem = new ItemDoorItem("jungle");
 	public static Item acaciaDoorItem = new ItemDoorItem("acacia");
 	public static Item birchDoorItem = new ItemDoorItem("birch");
+	
+	public static Item coloredDoorItem1 = new ItemColoredDoorItem("coloredDoorItem1");
+	public static Item coloredDoorItem2 = new ItemColoredDoorItem("coloredDoorItem2");
+	public static Item coloredDoorItem3 = new ItemColoredDoorItem("coloredDoorItem3");
+	public static Item coloredDoorItem4 = new ItemColoredDoorItem("coloredDoorItem4");
+	public static Item coloredDoorItem5 = new ItemColoredDoorItem("coloredDoorItem5");
+	public static Item coloredDoorItem6 = new ItemColoredDoorItem("coloredDoorItem6");
+	public static Item coloredDoorItem7 = new ItemColoredDoorItem("coloredDoorItem7");
+	public static Item coloredDoorItem8 = new ItemColoredDoorItem("coloredDoorItem8");
+	public static Item coloredDoorItem9 = new ItemColoredDoorItem("coloredDoorItem9");
+	public static Item coloredDoorItem10 = new ItemColoredDoorItem("coloredDoorItem10");
+	public static Item coloredDoorItem11 = new ItemColoredDoorItem("coloredDoorItem11");
+	public static Item coloredDoorItem12 = new ItemColoredDoorItem("coloredDoorItem12");
+	public static Item coloredDoorItem13 = new ItemColoredDoorItem("coloredDoorItem13");
+	public static Item coloredDoorItem14 = new ItemColoredDoorItem("coloredDoorItem14");
+	public static Item coloredDoorItem15 = new ItemColoredDoorItem("coloredDoorItem15");
+	public static Item coloredDoorItem16 = new ItemColoredDoorItem("coloredDoorItem16");
 
 	public static Item banana = new BasicFoodItem(10, 5, false, "banana");
 	public static Item strawberry = new BasicFoodItem(10, 5, false, "strawberry");
@@ -62,6 +79,23 @@ public class Items_Main {
 		GameRegistry.registerItem(jungleDoorItem, "jungleDoorItem");
 		GameRegistry.registerItem(acaciaDoorItem, "acaciaDoorItem");
 		GameRegistry.registerItem(birchDoorItem, "birchDoorItem");
+		
+		GameRegistry.registerItem(coloredDoorItem1, "coloredDoorItem1");
+		GameRegistry.registerItem(coloredDoorItem2, "coloredDoorItem2");
+		GameRegistry.registerItem(coloredDoorItem3, "coloredDoorItem3");
+		GameRegistry.registerItem(coloredDoorItem4, "coloredDoorItem4");
+		GameRegistry.registerItem(coloredDoorItem5, "coloredDoorItem5");
+		GameRegistry.registerItem(coloredDoorItem6, "coloredDoorItem6");
+		GameRegistry.registerItem(coloredDoorItem7, "coloredDoorItem7");
+		GameRegistry.registerItem(coloredDoorItem8, "coloredDoorItem8");
+		GameRegistry.registerItem(coloredDoorItem9, "coloredDoorItem9");
+		GameRegistry.registerItem(coloredDoorItem10, "coloredDoorItem10");
+		GameRegistry.registerItem(coloredDoorItem11, "coloredDoorItem11");
+		GameRegistry.registerItem(coloredDoorItem12, "coloredDoorItem12");
+		GameRegistry.registerItem(coloredDoorItem13, "coloredDoorItem13");
+		GameRegistry.registerItem(coloredDoorItem14, "coloredDoorItem14");
+		GameRegistry.registerItem(coloredDoorItem15, "coloredDoorItem15");
+		GameRegistry.registerItem(coloredDoorItem16, "coloredDoorItem16");
 
 		GameRegistry.registerItem(banana, "banana");
 		GameRegistry.registerItem(strawberry, "strawberry");
