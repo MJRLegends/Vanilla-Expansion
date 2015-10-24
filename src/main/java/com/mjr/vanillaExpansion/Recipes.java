@@ -143,6 +143,9 @@ public class Recipes {
 		GameRegistry.addRecipe(new ItemStack(Items_Main.darkOakDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 1, 5) });
 		GameRegistry.addRecipe(new ItemStack(Items_Main.goldDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Items.gold_ingot, 1) });
 		GameRegistry.addRecipe(new ItemStack(Items_Main.diamondDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Items.diamond, 1) });
+		
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.goldFence, 8, 0), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.fence, 1), 'Y', new ItemStack(Items.gold_ingot, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.diamondFence, 8, 0), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.fence, 1), 'Y', new ItemStack(Items.diamond, 1, 0) });
 
 		for (int i = 0; i < 16; i++) {
 			GameRegistry.addRecipe(new ItemStack(Blocks_Main.coloredStoneBricks, 8, i), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.stone, 1), 'Y', new ItemStack(Items.dye, 1, 15 - i) });
@@ -150,9 +153,9 @@ public class Recipes {
 		for (int i = 0; i < 16; i++) {
 			GameRegistry.addRecipe(new ItemStack(Blocks_Main.coloredWoodPlanks, 8, i), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.planks, 1), 'Y', new ItemStack(Items.dye, 1, 15 - i) });
 		}
-		for (int i = 0; i < 16; i++) {
-			GameRegistry.addRecipe(new ItemStack(Blocks_Main.coloredTrapDoors, 8, i), new Object[] { "XXX", "XXX", 'X', new ItemStack(Blocks_Main.coloredWoodPlanks, 8, i) });
-		}
+//		for (int i = 0; i < 16; i++) {
+//			GameRegistry.addRecipe(new ItemStack(Blocks_Main.coloredTrapDoors, 8, i), new Object[] { "XXX", "XXX", 'X', new ItemStack(Blocks_Main.coloredWoodPlanks, 8, i) });
+//		}
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.coloredFences1, 8, 0), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.fence, 1), 'Y', new ItemStack(Items.dye, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.coloredFences2, 8, 0), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.fence, 1), 'Y', new ItemStack(Items.dye, 1, 1) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.coloredFences3, 8, 0), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.fence, 1), 'Y', new ItemStack(Items.dye, 1, 2) });
@@ -220,7 +223,6 @@ public class Recipes {
 		GameRegistry.addRecipe(new ItemStack(Items_Main.coloredDoorItem14, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks_Main.coloredWoodPlanks, 1, 2)});
 		GameRegistry.addRecipe(new ItemStack(Items_Main.coloredDoorItem15, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks_Main.coloredWoodPlanks, 1, 1)});
 		GameRegistry.addRecipe(new ItemStack(Items_Main.coloredDoorItem16, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks_Main.coloredWoodPlanks, 1, 0)});
-
 	}
 
 	public static void furnaceRecipes() {

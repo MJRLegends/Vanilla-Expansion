@@ -288,14 +288,14 @@ public class Blocks_Main {
 	public static Block cherryLeaf = new BlockLeaf("cherryLeaf", "Cherry", Items_Main.cherry, cherrySapling);
 	public static Block cherryLog = new BlockLog("cherryLog");
 	
-	public static Block darkOakTrapDoor = new BlockCustomTrapDoor(Material.wood, "darkOakTrapDoor", 5);
-	public static Block spruceTrapDoor = new BlockCustomTrapDoor(Material.wood, "spruceTrapDoor", 5);
-	public static Block jungleTrapDoor = new BlockCustomTrapDoor(Material.wood, "jungleTrapDoor", 5);
-	public static Block acaciaTrapDoor = new BlockCustomTrapDoor(Material.wood, "acaciaTrapDoor", 5);
-	public static Block birchTrapDoor = new BlockCustomTrapDoor(Material.wood, "birchTrapDoor", 5);
-
-	public static Block goldTrapDoor = new BlockCustomTrapDoor(Material.iron, "goldTrapDoor", 5);
-	public static Block diamondTrapDoor = new BlockCustomTrapDoor(Material.iron, "diamondTrapDoor", 5);
+//	public static Block darkOakTrapDoor = new BlockCustomTrapDoor(Material.wood, "darkOakTrapDoor", 5);
+//	public static Block spruceTrapDoor = new BlockCustomTrapDoor(Material.wood, "spruceTrapDoor", 5);
+//	public static Block jungleTrapDoor = new BlockCustomTrapDoor(Material.wood, "jungleTrapDoor", 5);
+//	public static Block acaciaTrapDoor = new BlockCustomTrapDoor(Material.wood, "acaciaTrapDoor", 5);
+//	public static Block birchTrapDoor = new BlockCustomTrapDoor(Material.wood, "birchTrapDoor", 5);
+//
+//	public static Block goldTrapDoor = new BlockCustomTrapDoor(Material.iron, "goldTrapDoor", 5);
+//	public static Block diamondTrapDoor = new BlockCustomTrapDoor(Material.iron, "diamondTrapDoor", 5);
 	
 	public static Block darkOakFence = new BlockCustomFence(Material.wood, "darkOakFence", "planks_oak");
 	public static Block spruceFence = new BlockCustomFence(Material.wood, "spruceFence", "planks_spruce");
@@ -306,7 +306,7 @@ public class Blocks_Main {
 	public static Block goldFence = new BlockCustomFence(Material.iron, "goldFence", "gold_block");
 	public static Block diamondFence = new BlockCustomFence(Material.iron, "diamondFence", "diamond_block");
 	
-	public static Block coloredTrapDoors = new BlockColoredTrapDoors(Material.clay, "coloredTrapDoor", 5);
+	//public static Block coloredTrapDoors = new BlockColoredTrapDoors(Material.clay, "coloredTrapDoor", 5);
 	public static Block coloredStoneBricks = new BlockColoredStoneBricks("coloredStoneBricks");
 	public static Block coloredWoodPlanks = new BlockColoredWoodPlanks("coloredWoodPlanks");
 	
@@ -409,14 +409,14 @@ public class Blocks_Main {
 		GameRegistry.registerBlock(cherryLog, "cherryLog");
 		GameRegistry.registerBlock(cherrySapling, "cherrySapling");
 				
-		GameRegistry.registerBlock(darkOakTrapDoor, "darkOakTrapDoor");
-		GameRegistry.registerBlock(spruceTrapDoor, "spruceTrapDoor");
-		GameRegistry.registerBlock(jungleTrapDoor, "jungleTrapDoor");
-		GameRegistry.registerBlock(acaciaTrapDoor, "acaciaTrapDoor");
-		GameRegistry.registerBlock(birchTrapDoor, "birchTrapDoor");
-
-		GameRegistry.registerBlock(goldTrapDoor, "goldTrapDoor");
-		GameRegistry.registerBlock(diamondTrapDoor, "diamondTrapDoor");
+//		GameRegistry.registerBlock(darkOakTrapDoor, "darkOakTrapDoor");
+//		GameRegistry.registerBlock(spruceTrapDoor, "spruceTrapDoor");
+//		GameRegistry.registerBlock(jungleTrapDoor, "jungleTrapDoor");
+//		GameRegistry.registerBlock(acaciaTrapDoor, "acaciaTrapDoor");
+//		GameRegistry.registerBlock(birchTrapDoor, "birchTrapDoor");
+//
+//		GameRegistry.registerBlock(goldTrapDoor, "goldTrapDoor");
+//		GameRegistry.registerBlock(diamondTrapDoor, "diamondTrapDoor");
 		
 		GameRegistry.registerBlock(darkOakFence, "darkOakFence");
 		GameRegistry.registerBlock(spruceFence, "spruceFence");
@@ -427,7 +427,7 @@ public class Blocks_Main {
 		GameRegistry.registerBlock(goldFence, "goldFence");
 		GameRegistry.registerBlock(diamondFence, "diamondFence");
 		
-		GameRegistry.registerBlock(coloredTrapDoors, ItemMeta.class, coloredTrapDoors.getUnlocalizedName());
+		//GameRegistry.registerBlock(coloredTrapDoors, ItemMeta.class, coloredTrapDoors.getUnlocalizedName());
 		GameRegistry.registerBlock(coloredStoneBricks, ItemMeta.class, coloredStoneBricks.getUnlocalizedName());
 		GameRegistry.registerBlock(coloredWoodPlanks, ItemMeta.class, coloredWoodPlanks.getUnlocalizedName());
 		

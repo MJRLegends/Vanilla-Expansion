@@ -17,6 +17,9 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 import com.mjr.vanillaExpansion.Constants;
 import com.mjr.vanillaExpansion.VanillaExpansion;
 import com.mjr.vanillaExpansion.worldgen.WorldGenTreesBanana;
+import com.mjr.vanillaExpansion.worldgen.WorldGenTreesCherry;
+import com.mjr.vanillaExpansion.worldgen.WorldGenTreesLemon;
+import com.mjr.vanillaExpansion.worldgen.WorldGenTreesMango;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -119,7 +122,20 @@ public class BlockSapling extends BlockFlower {
 		Object object = null;
 		int i1 = 0;
 		int j1 = 0;
-		object = new WorldGenTreesBanana(true, (2 + par1Random.nextInt(4)) * 2, 0, 0, false);
+		switch(world.getBlock(x, y, z).getUnlocalizedName()){
+			case "tile.lemonSapling":
+				object = new WorldGenTreesLemon(true, (2 + par1Random.nextInt(4)) * 2, 0, 0, false);
+				break;
+			case "tile.bananaSapling":
+				object = new WorldGenTreesBanana(true, (2 + par1Random.nextInt(4)) * 2, 0, 0, false);
+				break;
+			case "tile.mangoSapling":
+				object = new WorldGenTreesMango(true, (2 + par1Random.nextInt(4)) * 2, 0, 0, false);
+				break;
+			case "tile.cherrySapling":
+				object = new WorldGenTreesCherry(true, (2 + par1Random.nextInt(4)) * 2, 0, 0, false);
+				break;
+		}
 		world.setBlock(x, y, z, Blocks.air, 0, 4);
 		if (!((WorldGenerator) object).generate(world, par1Random, x + i1, y, z + j1)) {
 			world.setBlock(x, y, z, this, l, 4);
