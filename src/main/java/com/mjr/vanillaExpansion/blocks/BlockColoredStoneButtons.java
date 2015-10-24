@@ -15,13 +15,13 @@ import net.minecraft.util.IIcon;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class BlockColoredWoodPlanksButtons extends BlockButton
+public class BlockColoredStoneButtons extends BlockButton
 {
 	@SideOnly(Side.CLIENT)
 	public static final String[] baseNames = new String[] {"white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"};
 
 	private int meta;
-    protected BlockColoredWoodPlanksButtons(int blockMeta, String name)
+    protected BlockColoredStoneButtons(int blockMeta, String name)
     {
         super(false);
         this.meta = blockMeta;
@@ -38,6 +38,6 @@ public class BlockColoredWoodPlanksButtons extends BlockButton
     @SideOnly(Side.CLIENT)
     public IIcon getIcon(int p_149691_1_, int p_149691_2_)
     {
-        return Blocks_Main.coloredWoodPlanks.getIcon(1, meta);
+        return Blocks_Main.coloredStoneBricks.getIcon(1, meta);
     }
 }

@@ -12,7 +12,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class BlockColoredFence extends BlockFence
 {
-	public static final String[] baseNames = new String[] {"white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"};
+	public static final String[] baseNames = new String[] {"black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "light_blue", "magenta", "orange", "white"};
 
 	public BlockColoredFence(Material material, String textureName, int meta) {
 		super(Constants.TEXTURE_PREFIX + "coloredWoodPlanks" + "_" + baseNames[meta] , material);

@@ -344,22 +344,39 @@ public class Blocks_Main {
 	public static Block coloredFences15 = new BlockColoredFence(Material.wood, "coloredFences", 14);
 	public static Block coloredFences16 = new BlockColoredFence(Material.wood, "coloredFences", 15);
 	
-	public static Block coloredWoodPlanksButtons1 = new BlockCustomButtons(0, "coloredButton");
-	public static Block coloredWoodPlanksButtons2 = new BlockCustomButtons(1, "coloredButton");
-	public static Block coloredWoodPlanksButtons3 = new BlockCustomButtons(2, "coloredButton");
-	public static Block coloredWoodPlanksButtons4 = new BlockCustomButtons(3, "coloredButton");
-	public static Block coloredWoodPlanksButtons5 = new BlockCustomButtons(4, "coloredButton");
-	public static Block coloredWoodPlanksButtons6 = new BlockCustomButtons(5, "coloredButton");
-	public static Block coloredWoodPlanksButtons7 = new BlockCustomButtons(6, "coloredButton");
-	public static Block coloredWoodPlanksButtons8 = new BlockCustomButtons(7, "coloredButton");
-	public static Block coloredWoodPlanksButtons9 = new BlockCustomButtons(8, "coloredButton");
-	public static Block coloredWoodPlanksButtons10 = new BlockCustomButtons(9, "coloredButton");
-	public static Block coloredWoodPlanksButtons11 = new BlockCustomButtons(10, "coloredButton");
-	public static Block coloredWoodPlanksButtons12 = new BlockCustomButtons(11, "coloredButton");
-	public static Block coloredWoodPlanksButtons13 = new BlockCustomButtons(12, "coloredButton");
-	public static Block coloredWoodPlanksButtons14 = new BlockCustomButtons(13, "coloredButton");
-	public static Block coloredWoodPlanksButtons15 = new BlockCustomButtons(14, "coloredButton");
-	public static Block coloredWoodPlanksButtons16 = new BlockCustomButtons(15, "coloredButton");
+	public static Block coloredWoodPlanksButtons1 = new BlockColoredWoodPlanksButtons(0, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons2 = new BlockColoredWoodPlanksButtons(1, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons3 = new BlockColoredWoodPlanksButtons(2, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons4 = new BlockColoredWoodPlanksButtons(3, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons5 = new BlockColoredWoodPlanksButtons(4, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons6 = new BlockColoredWoodPlanksButtons(5, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons7 = new BlockColoredWoodPlanksButtons(6, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons8 = new BlockColoredWoodPlanksButtons(7, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons9 = new BlockColoredWoodPlanksButtons(8, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons10 = new BlockColoredWoodPlanksButtons(9, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons11 = new BlockColoredWoodPlanksButtons(10, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons12 = new BlockColoredWoodPlanksButtons(11, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons13 = new BlockColoredWoodPlanksButtons(12, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons14 = new BlockColoredWoodPlanksButtons(13, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons15 = new BlockColoredWoodPlanksButtons(14, "coloredWoodPlankButton");
+	public static Block coloredWoodPlanksButtons16 = new BlockColoredWoodPlanksButtons(15, "coloredWoodPlankButton");
+	
+	public static Block coloredStoneButtons1 = new BlockColoredStoneButtons(0, "coloredStoneButton");
+	public static Block coloredStoneButtons2 = new BlockColoredStoneButtons(1, "coloredStoneButton");
+	public static Block coloredStoneButtons3 = new BlockColoredStoneButtons(2, "coloredStoneButton");
+	public static Block coloredStoneButtons4 = new BlockColoredStoneButtons(3, "coloredStoneButton");
+	public static Block coloredStoneButtons5 = new BlockColoredStoneButtons(4, "coloredStoneButton");
+	public static Block coloredStoneButtons6 = new BlockColoredStoneButtons(5, "coloredStoneButton");
+	public static Block coloredStoneButtons7 = new BlockColoredStoneButtons(6, "coloredStoneButton");
+	public static Block coloredStoneButtons8 = new BlockColoredStoneButtons(7, "coloredStoneButton");
+	public static Block coloredStoneButtons9 = new BlockColoredStoneButtons(8, "coloredStoneButton");
+	public static Block coloredStoneButtons10 = new BlockColoredStoneButtons(9, "coloredStoneButton");
+	public static Block coloredStoneButtons11 = new BlockColoredStoneButtons(10, "coloredStoneButton");
+	public static Block coloredStoneButtons12 = new BlockColoredStoneButtons(11, "coloredStoneButton");
+	public static Block coloredStoneButtons13 = new BlockColoredStoneButtons(12, "coloredStoneButton");
+	public static Block coloredStoneButtons14 = new BlockColoredStoneButtons(13, "coloredStoneButton");
+	public static Block coloredStoneButtons15 = new BlockColoredStoneButtons(14, "coloredStoneButton");
+	public static Block coloredStoneButtons16 = new BlockColoredStoneButtons(15, "coloredStoneButton");
 	
 	public static void init() {
 		registerBlocks();
@@ -464,6 +481,23 @@ public class Blocks_Main {
 		GameRegistry.registerBlock(coloredWoodPlanksButtons14, coloredWoodPlanksButtons14.getUnlocalizedName());
 		GameRegistry.registerBlock(coloredWoodPlanksButtons15, coloredWoodPlanksButtons15.getUnlocalizedName());
 		GameRegistry.registerBlock(coloredWoodPlanksButtons16, coloredWoodPlanksButtons16.getUnlocalizedName());
+		
+		GameRegistry.registerBlock(coloredStoneButtons1, coloredStoneButtons1.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons2, coloredStoneButtons2.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons3, coloredStoneButtons3.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons4, coloredStoneButtons4.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons5, coloredStoneButtons5.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons6, coloredStoneButtons6.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons7, coloredStoneButtons7.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons8, coloredStoneButtons8.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons9, coloredStoneButtons9.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons10, coloredStoneButtons10.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons11, coloredStoneButtons11.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons12, coloredStoneButtons12.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons13, coloredStoneButtons13.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons14, coloredStoneButtons14.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons15, coloredStoneButtons15.getUnlocalizedName());
+		GameRegistry.registerBlock(coloredStoneButtons16, coloredStoneButtons16.getUnlocalizedName());
 	}
 
 	private static void registerSlabsAndStairs() {
