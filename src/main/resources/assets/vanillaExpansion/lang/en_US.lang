@@ -302,3 +302,11 @@ tile.coloredTrapDoor.green.name=Green Wood Trapdoor
 tile.coloredTrapDoor.yellow.name=Yellow Wood Trapdoor
 tile.coloredTrapDoor.purple.name=Purple Wood Trapdoor
 tile.coloredTrapDoor.magenta.name=Magenta Wood Trapdoor
+
+tile.darkOakFence.name=Dark Oak Fence
+tile.spruceFence.name=Spruce Fence
+tile.jungleFence.name=Jungle Fence
+tile.acaciaFence.name=Acacia Fence
+tile.birchFence.name=Birch Fence
+tile.goldFence.name=Gold Fence
+tile.diamondFence.name=Diamond Fence

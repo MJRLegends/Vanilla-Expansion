@@ -297,7 +297,7 @@ public class Blocks_Main {
 //	public static Block goldTrapDoor = new BlockCustomTrapDoor(Material.iron, "goldTrapDoor", 5);
 //	public static Block diamondTrapDoor = new BlockCustomTrapDoor(Material.iron, "diamondTrapDoor", 5);
 	
-	public static Block darkOakFence = new BlockCustomFence(Material.wood, "darkOakFence", "planks_oak");
+	public static Block darkOakFence = new BlockCustomFence(Material.wood, "darkOakFence", "planks_dark_oak");
 	public static Block spruceFence = new BlockCustomFence(Material.wood, "spruceFence", "planks_spruce");
 	public static Block jungleFence = new BlockCustomFence(Material.wood, "jungleFence", "planks_jungle");
 	public static Block acaciaFence = new BlockCustomFence(Material.wood, "acaciaFence", "planks_acacia");
@@ -385,7 +385,7 @@ public class Blocks_Main {
 
 	private static void registerBlocks() {
 		GameRegistry.registerBlock(goldDoor, "goldDoor");
-		GameRegistry.registerBlock(diamondDoor, "diamondDoor");
+		//GameRegistry.registerBlock(diamondDoor, "diamondDoor");
 
 		GameRegistry.registerBlock(darkOakDoor, "darkOakDoor");
 		GameRegistry.registerBlock(spruceDoor, "spruceDoor");

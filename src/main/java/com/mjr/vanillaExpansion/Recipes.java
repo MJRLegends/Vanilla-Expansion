@@ -142,10 +142,16 @@ public class Recipes {
 		GameRegistry.addRecipe(new ItemStack(Items_Main.acaciaDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 1, 4) });
 		GameRegistry.addRecipe(new ItemStack(Items_Main.darkOakDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Blocks.planks, 1, 5) });
 		GameRegistry.addRecipe(new ItemStack(Items_Main.goldDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Items.gold_ingot, 1) });
-		GameRegistry.addRecipe(new ItemStack(Items_Main.diamondDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Items.diamond, 1) });
+		//GameRegistry.addRecipe(new ItemStack(Items_Main.diamondDoorItem, 3), new Object[] { "WW ", "WW ", "WW ", 'W', new ItemStack(Items.diamond, 1) });
 		
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.goldFence, 8, 0), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.fence, 1), 'Y', new ItemStack(Items.gold_ingot, 1, 0) });
 		GameRegistry.addRecipe(new ItemStack(Blocks_Main.diamondFence, 8, 0), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.fence, 1), 'Y', new ItemStack(Items.diamond, 1, 0) });
+
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.darkOakFence, 8, 0), new Object[] {"XYX", "XYX", 'X', new ItemStack(Blocks.planks, 0, 5), 'Y', new ItemStack(Items.stick, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.spruceFence, 8, 0), new Object[] {"XYX", "XYX", 'X', new ItemStack(Blocks.planks, 0, 1), 'Y', new ItemStack(Items.stick, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.jungleFence, 8, 0), new Object[] {"XYX", "XYX", 'X', new ItemStack(Blocks.planks, 0, 3), 'Y', new ItemStack(Items.stick, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.acaciaFence, 8, 0), new Object[] {"XYX", "XYX", 'X', new ItemStack(Blocks.planks, 0, 4), 'Y', new ItemStack(Items.stick, 1, 0) });
+		GameRegistry.addRecipe(new ItemStack(Blocks_Main.birchFence, 8, 0), new Object[] {"XYX", "XYX", 'X', new ItemStack(Blocks.planks, 0, 2), 'Y', new ItemStack(Items.stick, 1, 0) });
 
 		for (int i = 0; i < 16; i++) {
 			GameRegistry.addRecipe(new ItemStack(Blocks_Main.coloredStoneBricks, 8, i), new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.stone, 1), 'Y', new ItemStack(Items.dye, 1, 15 - i) });

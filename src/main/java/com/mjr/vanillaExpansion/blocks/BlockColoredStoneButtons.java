@@ -17,7 +17,6 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class BlockColoredStoneButtons extends BlockButton
 {
-	@SideOnly(Side.CLIENT)
 	public static final String[] baseNames = new String[] {"white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"};
 
 	private int meta;

@@ -72,7 +72,7 @@ public class Items_Main {
 
 	private static void registerItems() {
 		GameRegistry.registerItem(goldDoorItem, "goldDoorItem");
-		GameRegistry.registerItem(diamondDoorItem, "diamondDoorItem");
+		//GameRegistry.registerItem(diamondDoorItem, "diamondDoorItem");
 
 		GameRegistry.registerItem(darkOakDoorItem, "darkOakDoorItem");
 		GameRegistry.registerItem(spruceDoorItem, "spruceDoorItem");
