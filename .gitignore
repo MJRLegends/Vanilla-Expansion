@@ -3,7 +3,6 @@ bin/
 gradle/
 .settings/
 Minecraft Forge Tool v1.0.0.exe
-build.gradle
 gradlew
 gradlew.bat
 .gradle/
